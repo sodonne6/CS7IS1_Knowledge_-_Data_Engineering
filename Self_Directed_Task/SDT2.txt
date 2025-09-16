@@ -1,0 +1,14 @@
+Turtle About Me Practice
+
+@prefix ex: <http://example.org/schema#> .
+@prefix : <http://example.org/data#> .
+
+:Person1234
+    a ex:Person ;
+    ex:firstname "Shane" ;
+    ex:lastname "Odonnell" ;
+    ex:phone "+353 87 455 4342" ;
+    ex:travelsBy :Bus , :Dart .
+
+:Bus
+    ex:busRoute "C1" , "C2" .

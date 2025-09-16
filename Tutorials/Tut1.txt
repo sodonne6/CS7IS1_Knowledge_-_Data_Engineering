@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="http://www.example.org/MovieVocab#">
+
+  <rdf:Description rdf:about="http://www.example.org/Movie/TheGodfather">
+    <rdf:type rdf:resource="http://www.example.org/MovieVocab#Drama"/>
+    <ns0:Runtime>175</ns0:Runtime>
+    <ns0:Director>Francis Ford Coppola</ns0:Director>
+  </rdf:Description>
+
+  <rdf: Description rdf:about="http://www.example.org/City/Dublin">
+    <rdf:type rdf:resource="http://www.example.org/MovieVocab#City"/>
+    <ns0:CapitalOf>Ireland</ns0:CapitalOf>
+    <ns0:Population>1200000</ns0:Population>
+  </rdf:Description>
+
+ </rdf:RDF>
+
+Turtle Version with Dublin Facts
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix MovieVocab: <http://www.example.org/MovieVocab#> .
+
+<http://www.example.org/Movie/TheGodfather>
+  rdf:type MovieVocab:Drama ;
+  MovieVocab:Runtime "175" ;
+  MovieVocab:Director "Francis Ford Coppola" .
+
+<http://www.example.org/City/Dublin>
+  rdf:type MovieVocab:City ;
+  MovieVocab:CapitalOf "Ireland" ;
+  MovieVocab:Population "1200000" .
