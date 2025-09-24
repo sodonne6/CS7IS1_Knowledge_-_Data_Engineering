@@ -1,0 +1,68 @@
+# a network element can produce a fault that describe errors
+# processing and communication faults -> class and 2 subclasses
+#fault has a numeric identifier -> identifier of network element that caused instance
+# probable cause selected from known causes , additional info and date and time stamp
+
+#known probable causes of faults -> software and hardware and transmission -> class and 3 subclasses
+
+@prefix ex: <http://example.org/schema#> .
+@prefix : <http://example.org/data#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# Classes
+ex:NetworkElement a rdfs:Class .
+ex:Fault a rdfs:Class .
+ex:ProcessingFault a rdfs:Class ;
+    rdfs:subClassOf ex:Fault.
+ex:CommunicationFault a rdfs:Class ;
+    rdfs:subClassOf ex:Fault .
+
+#outline causes 
+ex:ProbableCause a rdfs:Class .
+ex:SoftwareError a rdfs:Class ;
+    rdfs:subClassOf ex:ProbableCause .
+ex:HardwareError a rdfs:Class ;
+    rdfs:subClassOf ex:ProbableCause .
+ex:TransmissionError a rdfs:Class ;
+    rdfs:subClassOf ex:ProbableCause .
+
+# properties 
+ex:faultID a rdf:Property ;
+    rdfs:domain ex:Fault ;
+    rdfs:range xsd:int .
+
+ex:causedBy a rdf:Property ;
+    rdfs:domain ex:Fault ;
+    rdfs:range ex:NetworkElement .
+ex:knownProbableCause a rdf:Property ;
+    rdfs:domain ex:Fault ;
+    rdfs:range ex:ProbableCause .
+
+ex:hasAdditionalInfo a rdf:Property ;
+    rdfs:domain ex:Fault ;
+    rdfs:range xsd:string .
+
+ex:hasDateStamp a rdf:Property ;
+    rdfs:domain ex:Fault ;
+    rdfs:range xsd:dateTime .
+
+ex:identifier a rdf:Property ;
+    rdfs:domain ex:NetworkElement ;
+    rdfs:range xsd:string .
+
+#test
+
+:ne01 a ex:NetworkElement ;
+    ex:identifier "01"^^xsd:string .
+
+:fault1001 a ex:ProcessingFault ;
+    ex:faultID 1001 ;
+    ex:causedBy :ne01 ;
+    ex:knownProbableCause :swErr01 ;
+    ex:hasAdditionalInfo "Buffer overflow in module A"^^xsd:string ;
+    ex:hasDateStamp "2025-09-24T19:30:00Z"^^xsd:dateTime .
+
+:swErr01 a ex:SoftwareError ;
+    ex:identifier "SW01"^^xsd:string .

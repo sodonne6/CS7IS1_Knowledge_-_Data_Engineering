@@ -1,0 +1,35 @@
+@prefix ex: <http://example.org/schema#> .
+@prefix : <http://example.org/data#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# Classes
+ex:Person a rdfs:Class .
+ex:Student a rdfs:Class ; rdfs:subClassOf ex:Person .
+ex:Course a rdfs:Class .
+ex:Transport a rdfs:Class .
+
+# Properties
+ex:firstname a rdf:Property ; rdfs:domain ex:Person ; rdfs:range xsd:string .
+ex:lastname a rdf:Property ; rdfs:domain ex:Person ; rdfs:range xsd:string .
+ex:phone a rdf:Property ; rdfs:domain ex:Person ; rdfs:range xsd:string .
+ex:travelsBy a rdf:Property ; rdfs:domain ex:Person ; rdfs:range ex:Transport .
+ex:studies a rdf:Property ; rdfs:domain ex:Student ; rdfs:range ex:Course .
+ex:enrolledIn a rdf:Property ; rdfs:domain ex:Course ; rdfs:range xsd:string .
+
+# Person instance
+:Person1234 a ex:Student ;
+    ex:firstname "Shane"^^xsd:string ;
+    ex:lastname "Odonnell"^^xsd:string ;
+    ex:phone "+353 87 455 4342"^^xsd:string ;
+    ex:travelsBy :Bus , :Dart ;
+    ex:studies :Engineering .
+
+# Course instance
+:Engineering a ex:Course ;
+    ex:enrolledIn "MachineLearning"^^xsd:string .
+
+# Transport instances
+:Bus a ex:Transport .
+:Dart a ex:Transport .
