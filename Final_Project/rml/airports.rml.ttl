@@ -1,0 +1,60 @@
+@prefix rr:   <http://www.w3.org/ns/r2rml#> .
+@prefix rml:  <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql:   <http://semweb.mmlab.be/ns/ql#> .
+@prefix ex:   <http://example.org/flight#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+#turn each row of csv into rdf
+#create a unique URI for each airport 
+
+<#Airport> a rr:TripleMap ;
+    rml:logicalSource [
+        rml:source "C:\Users\irish\Computer_Electronic_Engineering_Year5\Knowledge_Data_Engineering\Final_Project\Data\openflights\airports.csv"
+        rml:referenceFormulation ql:CSV
+    ];
+
+    rr:subjectMap [
+        rr:template "http://example.org/flight/airport/{Airport ID}" ;
+        rr:Class ex:Airport
+    ] ;
+
+    #data properties - literals for each airport
+
+    #IATA code (identifier for each airport)
+    rr:predicateObjectMap [
+        rr:predicate ex:iataCode ;
+        rr:objectMap [rml:reference "IATA"]
+    ];
+
+    # ICAO code (string)
+    rr:predicateObjectMap [
+        rr:predicate   ex:icaoCode ;
+        rr:objectMap [ rml:reference "ICAO" ]
+    ] ;
+
+    # Airport name (string)
+    rr:predicateObjectMap [
+        rr:predicate   ex:airportName ;
+        rr:objectMap [ rml:reference "Name" ]
+    ] ;
+
+    #long and latitude 
+    rr:predicateObjectMap [
+        rr:predicate ex:latitude ;
+        rr:objectMap [rml:reference "Latitude"; rr:datatype xsd:decimal]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:longitude ;
+        rr:objectMap [rml:reference "Longitude"; rr:datatype xsd:decimal]
+    ];
+
+
+    #combine the name and the iata to make sure everything is being mapped correctly and it makes sense
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label ;
+        rr:objectMap [rr:template "{Name} ({IATA})"]
+    ];
+
+    #create logic to link airport - city - country
+    

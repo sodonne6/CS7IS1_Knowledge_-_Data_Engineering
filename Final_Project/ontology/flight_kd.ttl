@@ -1,0 +1,120 @@
+@prefix ex:    <http://example.org/flight#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+
+####################
+# Classes (more than 8 classes cant have more than 3 subclasses)
+#################
+
+ex:Airport a owl:Class; rdfs:label "Airport" .
+ex:City a owl:Class ; rdfs:label "City" .
+ex:Country a owl:Class ; rdfs:label "Country" .
+ex:Airline a owl:Class ; rdfs:label "Airline" .
+ex:Route a owl:Class ; rdfs:label "Route (single leg - no layover)" .
+ex:Itinerary a owl:Class ; rdfs:label "Itinerary" .
+ex:Leg a owl:Class ; rdfs:label "Leg" .
+ex:Connection a owl:Class ; rdfs:label "Connection (Layover)" .
+
+######################
+#subclassses
+######################
+
+ex:InternationalAirport rdfs:subClassOf ex:Airport .
+ex:DomesticRoute rdfs:subClassOf ex:Route .
+ex:DirectFlightItinerary rdfs:subClassOf ex:Itinerary .
+
+######################
+# object properties - have a look at the lecture slides on owl for this 
+#####################
+
+#this property connexts airports to the city they reside - this is good because some airports
+#arent related to the city they're in ex O'Hare is in chicago - couldnt guess from the name
+#also for queries you can search how 2 cities connect without the name of airport
+#also have inverseOf so it goes both ways 
+
+ex:servesCity a owl:ObjectProperty ;
+    rdfs:domain ex:airport ; rdfs:range ex:City ;
+    rdfs:label "serves the city" .
+
+ex:hasAirport a owl:ObjectProperty ;
+  rdfs:domain ex:City ; rdfs:range ex:Airport ;
+  rdfs:label "has the airport" ;
+  owl:inverseOf ex:servesCity .
+
+
+# make connection between cities and countries 
+ex:inCountry a owl:ObjectProperty ;
+    rdfs:domain ex:City ; rdfs:range ex:Country .
+
+#routes start and endpoint (where i am and where i want to go)
+ex:origin a owl:ObjectProperty ;
+    rdfs:domain ex:Route; rdfs:range ex:Airport .
+
+ex:destination a owl: ObjectProperty ;
+    rdfs:domain ex:Route ; rdfs:range ex:Airport .
+
+#connection between route and the airline that travels this route
+ex:operatedBy a owl:ObjectProperty ;
+    rdfs:domain ex:Route ; rdfs:range ex:Airline .
+
+ex:operatesRoute a owl:ObjectProperty ;
+  rdfs:domain ex:Airline ; rdfs:range ex:Route ;
+  owl:inverseOf ex:operatedBy .
+
+#if there are multiple airports in the same city - paris has 3 
+ex:sharesCityWith a owl:ObjectProperty, owl:SymmetricProperty ;
+    rdfs:domain ex:Airport ; rdfs:range ex:Airport .
+
+#airport to airport edges - direct connections no layovers
+
+ex:directTo a owl:ObjectProperty ;
+    rdfs:domain ex:Airport ; rdfs:range ex:Airport ;
+    rdfs:comment "there is a direct route between origin and destination" .
+
+#this will allow for queries on "is there a connection between dublin and sydney"
+#transisitive reachability
+
+ex:reachable a owl:ObjectProperty , owl:TransitiveProperty .
+ex:directTo rdfs:subPropertyOf ex:reachable .
+
+#Itinerary composition (needed for cardinality later)
+ex:hasLeg a owl:ObjectProperty ;
+  rdfs:domain ex:Itinerary ; rdfs:range ex:Route .
+
+###############
+# Data Properties - based on data from csv and added properties
+##############
+ex:iataCode a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:string .
+ex:icaoCode a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:string .
+ex:airportName a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:string .
+ex:latitude a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:decimal .
+ex:longitude a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:decimal .
+ex:stops a owl:DatatypeProperty ; rdfs:domain ex:Route   ; rdfs:range xsd:integer .
+ex:estimatedDistanceKm a owl:DatatypeProperty ; rdfs:domain ex:Route ; rdfs:range xsd:decimal .
+ex:avgTravelTimeMin a owl:DatatypeProperty ; rdfs:domain ex:Itinerary ; rdfs:range xsd:integer .
+
+
+#cardinality restrictions 
+
+#airport can only have connection to one city (where it resides)
+ex:Airport rdfs:subClassOf
+    [ a owl:Restriction ; owl:onProperty ex:servesCity ; owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ; owl:onClass ex:City ],
+    [ a owl:Restriction; owl:onProperty iataCode ; owl:cardinality "1"^^xsd:nonNegativeInteger ],
+    [ a owl:Restriction ; owl:onProperty ex:airportName ; owl:cardinality "1"^^xsd:nonNegativeInteger] .
+
+#routes only have 1 origin and 1 destination
+ex:Route rdfs:subClassOf
+    [a owl:Restriction ; owl:onProperty ex:origin ; owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ; owl:onClass ex:Airport ],
+    [a owl:Restriction ; owl:onProperty ex:destination ; owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger; owl:onClass ex:Airport].
+
+#itineraries need have at least 1 leg to make sense
+ex:Itinerary rdfs:subClassOf
+    [a owl:Restriction ; owl:onProperty ex:hasLeg ; owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ; owl:onClass ex:Route ].
+
+# Ensure latitude/longitude appear exactly once per Airport
+ex:Airport rdfs:subClassOf
+  [ a owl:Restriction ; owl:onProperty ex:latitude  ; owl:cardinality "1"^^xsd:nonNegativeInteger ],
+  [ a owl:Restriction ; owl:onProperty ex:longitude ; owl:cardinality "1"^^xsd:nonNegativeInteger ] .
+
