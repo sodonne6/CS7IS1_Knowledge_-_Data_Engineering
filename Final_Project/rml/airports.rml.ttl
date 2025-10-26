@@ -3,19 +3,20 @@
 @prefix ql:   <http://semweb.mmlab.be/ns/ql#> .
 @prefix ex:   <http://example.org/flight#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 #turn each row of csv into rdf
 #create a unique URI for each airport 
 
-<#Airport> a rr:TripleMap ;
+<#Airport> a rr:TriplesMap ;
     rml:logicalSource [
-        rml:source "C:\Users\irish\Computer_Electronic_Engineering_Year5\Knowledge_Data_Engineering\Final_Project\Data\openflights\airports.csv"
+        rml:source "C:\Users\irish\Computer_Electronic_Engineering_Year5\Knowledge_Data_Engineering\Final_Project\Data\openflights\airports.csv" ;
         rml:referenceFormulation ql:CSV
     ];
 
     rr:subjectMap [
         rr:template "http://example.org/flight/airport/{Airport ID}" ;
-        rr:Class ex:Airport
+        rr:class ex:Airport
     ] ;
 
     #data properties - literals for each airport
@@ -54,7 +55,61 @@
     rr:predicateObjectMap [
         rr:predicate rdfs:label ;
         rr:objectMap [rr:template "{Name} ({IATA})"]
-    ];
+    ] .
 
     #create logic to link airport - city - country
-    
+
+# countries triple map, taken from csv the same way
+<#Countries> a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "../Data/openflights/airports.csv" ;
+        rml:referenceFormulation ql:CSV 
+    ] ;
+
+    rr:subjectMap [
+        rr:template "http://example.org/flight/country/{Country}" ;
+        rr:class ex:Country
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label ;
+        rr:objectMap [rml:reference "Country"]
+    ] .
+
+#cities - make link between cities and the countries they reside in
+<#Cities> a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "C:\Users\irish\Computer_Electronic_Engineering_Year5\Knowledge_Data_Engineering\Final_Project\Data\openflights\airports.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    #identify with both city and country to avoid clashes - ex. Paris Texas
+    rr:subjectMap [
+        rr:template "http://example.org/flight/city/{City}_{Country}" ;
+        rr:class ex:City
+    ] ;
+
+    #debug help - show Dublin, Ireland as label
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label ;
+        rr:objectMap [rr:template "{City}, {Country}"]
+    ] ;
+
+    # City -> Country via JOIN on the Country column
+    rr:predicateObjectMap [
+        rr:predicate   ex:inCountry ;
+        rr:objectMap [
+            rr:parentTriplesMap <#Countries> ;
+            rr:joinCondition [ rr:child "Country" ; rr:parent "Country" ]
+        ]
+    ] .
+
+
+#join airport to city and country
+<#Airport> rr:predicateObjectMap [
+    rr:predicate ex:servesCity ;
+    rr:objectMap [
+        rr:parentTriplesMap <#Cities> ;
+        # Join on both columns for robustness
+        rr:joinCondition [ rr:child "City"    ; rr:parent "City" ] ;
+        rr:joinCondition [ rr:child "Country" ; rr:parent "Country" ]
+    ]
+] .

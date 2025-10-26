@@ -52,7 +52,7 @@ ex:inCountry a owl:ObjectProperty ;
 ex:origin a owl:ObjectProperty ;
     rdfs:domain ex:Route; rdfs:range ex:Airport .
 
-ex:destination a owl: ObjectProperty ;
+ex:destination a owl:ObjectProperty ;
     rdfs:domain ex:Route ; rdfs:range ex:Airport .
 
 #connection between route and the airline that travels this route
@@ -101,7 +101,7 @@ ex:avgTravelTimeMin a owl:DatatypeProperty ; rdfs:domain ex:Itinerary ; rdfs:ran
 #airport can only have connection to one city (where it resides)
 ex:Airport rdfs:subClassOf
     [ a owl:Restriction ; owl:onProperty ex:servesCity ; owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ; owl:onClass ex:City ],
-    [ a owl:Restriction; owl:onProperty iataCode ; owl:cardinality "1"^^xsd:nonNegativeInteger ],
+    [ a owl:Restriction; owl:onProperty ex:iataCode ; owl:cardinality "1"^^xsd:nonNegativeInteger ],
     [ a owl:Restriction ; owl:onProperty ex:airportName ; owl:cardinality "1"^^xsd:nonNegativeInteger] .
 
 #routes only have 1 origin and 1 destination
