@@ -1,0 +1,56 @@
+@prefix sh:   <http://www.w3.org/ns/shacl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex:   <http://example.org/flight#> .
+
+# define structure of graph to validate
+
+# Airports 
+
+ex:AirportShape a sh:NodeShape ;
+    sh:targetClass ex:Airport ;
+
+    #- should only serve a singular city - and the object servesCity should be pointing to is of class City
+    sh:property [
+        sh:path ex:servesCity ;
+        sh:minCount 1 ; sh:maxCount 1 ;
+        sh:Class ex:City
+    ] ;
+
+    # cant have less than or more than 1 IATA
+    sh:property [
+        sh:path ex:iataCode ;
+        sh:minCount 1 ; sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+    ] .
+
+ex:CityShape a sh:NodeShape ;
+    sh:targetClass ex:City ;
+
+    #city can only belong to singular country
+    sh:property [
+        sh:path ex:inCountry ;
+        sh:minCount 1 ; 
+        sh:maxCount 1 ;
+        sh:class ex:Country ;
+    ] .
+
+
+ex:RouteShape a sh:NodeShape ;
+    sh:targetClass ex:Route ;
+
+    #exactly 1 origin per route
+    sh:property [
+        sh:path ex:origin ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class ex:Airport ;
+    ] ;
+
+    #exactly 1 destination per route
+    sh:property [
+        sh:path ex:destination ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class ex:Airport ;
+    ] .

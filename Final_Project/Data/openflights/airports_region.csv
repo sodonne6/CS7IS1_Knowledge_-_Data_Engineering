@@ -1,0 +1,776 @@
+Airport ID,Name,City,Country,IATA,ICAO,Latitude,Longitude,Altitude,Timezone,DST,Tz database time zone,Type,Source
+317,Flugplatz Bautzen,Bautzen,Germany,,EDAB,51.193611,14.519722,568,1.0,E,Europe/Berlin,airport,OurAirports
+318,Altenburg-Nobitz Airport,Altenburg,Germany,AOC,EDAC,50.981945,12.506389,640,1.0,E,Europe/Berlin,airport,OurAirports
+319,Dessau Airfield,Dessau,Germany,,EDAD,51.831694,12.190962,187,1.0,E,Europe/Berlin,airport,OurAirports
+320,Eisenhüttenstadt Airfield,Eisenhuettenstadt,Germany,,EDAE,52.195856,14.58753,144,1.0,E,Europe/Berlin,airport,OurAirports
+322,Großenhain Airport,Suhl,Germany,,EDAK,51.30805587768555,13.555556297302246,417,1.0,E,Europe/Berlin,airport,OurAirports
+323,Merseburg Airport,Muehlhausen,Germany,,EDAM,51.3630556,11.9408333,341,1.0,E,Europe/Berlin,airport,OurAirports
+324,Halle-Oppin Airport,Halle,Germany,,EDAQ,51.552223,12.053889,348,1.0,E,Europe/Berlin,airport,OurAirports
+325,Riesa-Göhlis Airport,Riesa,Germany,IES,EDAU,51.2936096191,13.3561105728,322,1.0,E,Europe/Berlin,airport,OurAirports
+326,Rechlin-Lärz Airport,Rechlin-laerz,Germany,REB,EDAX,53.306388855,12.7522220612,220,1.0,E,Europe/Berlin,airport,OurAirports
+327,Strausberg Airport,Strausberg,Germany,,EDAY,52.5805549621582,13.916666984558104,262,1.0,E,Europe/Berlin,airport,OurAirports
+328,Schönhagen Airport,Schoenhagen,Germany,QXH,EDAZ,52.203609,13.156389,152,1.0,E,Europe/Berlin,airport,OurAirports
+329,Barth Airport,Barth,Germany,BBH,EDBH,54.338253,12.710515,23,1.0,E,Europe/Berlin,airport,OurAirports
+330,Jena-Schöngleina Airfield,Jena,Germany,,EDBJ,50.915279,11.714444,1247,1.0,E,Europe/Berlin,airport,OurAirports
+331,Kyritz Airport,Kyritz,Germany,,EDBK,52.918888092041016,12.425277709960938,131,1.0,E,Europe/Berlin,airport,OurAirports
+332,"Magdeburg ""City"" Airport",Magdeburg,Germany,ZMG,EDBM,52.073612,11.626389,259,1.0,E,Europe/Berlin,airport,OurAirports
+333,Rothenburg/Görlitz Airport,Rothenburg/ol,Germany,,EDBR,51.36333465576172,14.949999809265137,518,1.0,E,Europe/Berlin,airport,OurAirports
+334,Anklam Airfield,Anklam,Germany,,EDCA,53.832779,13.668611,16,1.0,E,Europe/Berlin,airport,OurAirports
+335,Cottbus-Drewitz Airport,Cottbus,Germany,CBU,EDCD,51.889442,14.531944,272,1.0,E,Europe/Berlin,airport,OurAirports
+336,Kamenz Airport,Kamenz,Germany,,EDCM,51.29694366455078,14.1274995803833,495,1.0,E,Europe/Berlin,airport,OurAirports
+337,Berlin-Schönefeld Airport,Berlin,Germany,SXF,EDDB,52.380001,13.5225,157,1.0,E,Europe/Berlin,airport,OurAirports
+338,Dresden Airport,Dresden,Germany,DRS,EDDC,51.1328010559082,13.767200469970703,755,1.0,E,Europe/Berlin,airport,OurAirports
+339,Erfurt Airport,Erfurt,Germany,ERF,EDDE,50.97980117797852,10.958100318908691,1036,1.0,E,Europe/Berlin,airport,OurAirports
+340,Frankfurt am Main Airport,Frankfurt,Germany,FRA,EDDF,50.033333,8.570556,364,1.0,E,Europe/Berlin,airport,OurAirports
+341,Münster Osnabrück Airport,Munster,Germany,FMO,EDDG,52.134601593,7.68483018875,160,1.0,E,Europe/Berlin,airport,OurAirports
+342,Hamburg Airport,Hamburg,Germany,HAM,EDDH,53.630401611328,9.9882297515869,53,1.0,E,Europe/Berlin,airport,OurAirports
+343,Berlin-Tempelhof International Airport,Berlin,Germany,THF,EDDI,52.47299957275391,13.403900146484377,167,1.0,E,Europe/Berlin,airport,OurAirports
+344,Cologne Bonn Airport,Cologne,Germany,CGN,EDDK,50.8658981323,7.1427397728,302,1.0,E,Europe/Berlin,airport,OurAirports
+345,Düsseldorf Airport,Duesseldorf,Germany,DUS,EDDL,51.289501,6.76678,147,1.0,E,Europe/Berlin,airport,OurAirports
+346,Munich Airport,Munich,Germany,MUC,EDDM,48.353802,11.7861,1487,1.0,E,Europe/Berlin,airport,OurAirports
+347,Nuremberg Airport,Nuernberg,Germany,NUE,EDDN,49.498699,11.078056,1046,1.0,E,Europe/Berlin,airport,OurAirports
+348,Leipzig/Halle Airport,Leipzig,Germany,LEJ,EDDP,51.423889,12.236389,465,1.0,E,Europe/Berlin,airport,OurAirports
+349,Saarbrücken Airport,Saarbruecken,Germany,SCN,EDDR,49.2145996094,7.10950994492,1058,1.0,E,Europe/Berlin,airport,OurAirports
+350,Stuttgart Airport,Stuttgart,Germany,STR,EDDS,48.6898994446,9.22196006775,1276,1.0,E,Europe/Berlin,airport,OurAirports
+351,Berlin-Tegel Airport,Berlin,Germany,TXL,EDDT,52.5597,13.2877,122,1.0,E,Europe/Berlin,airport,OurAirports
+352,Hannover Airport,Hannover,Germany,HAJ,EDDV,52.461101532,9.68507957458,183,1.0,E,Europe/Berlin,airport,OurAirports
+353,Bremen Airport,Bremen,Germany,BRE,EDDW,53.0475006104,8.78666973114,14,1.0,E,Europe/Berlin,airport,OurAirports
+354,Frankfurt-Egelsbach Airport,Egelsbach,Germany,QEF,EDFE,49.959999,8.645833,384,1.0,E,Europe/Berlin,airport,OurAirports
+355,Frankfurt-Hahn Airport,Hahn,Germany,HHN,EDFH,49.9487,7.26389,1649,1.0,E,Europe/Berlin,airport,OurAirports
+356,Mannheim-City Airport,Mannheim,Germany,MHG,EDFM,49.473057,8.514167,308,1.0,E,Europe/Berlin,airport,OurAirports
+357,Allendorf/Eder Airport,Allendorf,Germany,,EDFQ,51.03499984741211,8.680832862854004,1158,1.0,E,Europe/Berlin,airport,OurAirports
+358,Worms Airport,Worms,Germany,,EDFV,49.606945,8.368333,295,1.0,E,Europe/Berlin,airport,OurAirports
+359,Mainz-Finthen Airport,Mainz,Germany,,EDFZ,49.967499,8.147222,525,1.0,E,Europe/Berlin,airport,OurAirports
+360,Eisenach-Kindel Airport,Eisenach,Germany,EIB,EDGE,50.991604,10.47973,1112,1.0,E,Europe/Berlin,airport,OurAirports
+361,Siegerland Airport,Siegerland,Germany,SGE,EDGS,50.70769882202149,8.082969665527344,1966,1.0,E,Europe/Berlin,airport,OurAirports
+362,Hamburg-Finkenwerder Airport,Hamburg,Germany,XFW,EDHI,53.5352783203125,9.835556030273438,23,1.0,E,Europe/Berlin,airport,OurAirports
+363,Kiel-Holtenau Airport,Kiel,Germany,KEL,EDHK,54.37944412231445,10.145277976989746,102,1.0,E,Europe/Berlin,airport,OurAirports
+364,Lübeck Blankensee Airport,Luebeck,Germany,LBC,EDHL,53.8054008484,10.7192001343,53,1.0,E,Europe/Berlin,airport,OurAirports
+365,Flugplatz Dahlemer Binz,Dahlemer Binz,Germany,,EDKV,50.405555725,6.5288891792,1896,1.0,E,Europe/Berlin,airport,OurAirports
+366,Meinerzhagen Airport,Meinerzhagen,Germany,,EDKZ,51.09999847412109,7.599999904632568,1549,1.0,E,Europe/Berlin,airport,OurAirports
+367,Arnsberg-Menden Airport,Arnsberg,Germany,,EDLA,51.48389053344727,7.8983330726623535,794,1.0,E,Europe/Berlin,airport,OurAirports
+368,Essen Mulheim Airport,Essen,Germany,ESS,EDLE,51.40230178833008,6.9373297691345215,424,1.0,E,Europe/Berlin,airport,OurAirports
+369,Bielefeld Airport,Bielefeld,Germany,BFE,EDLI,51.964722,8.544444,454,1.0,E,Europe/Berlin,airport,OurAirports
+370,Mönchengladbach Airport,Moenchengladbach,Germany,MGL,EDLN,51.230278,6.504444,125,1.0,E,Europe/Berlin,airport,OurAirports
+371,Paderborn Lippstadt Airport,Paderborn,Germany,PAD,EDLP,51.6141014099,8.616319656369999,699,1.0,E,Europe/Berlin,airport,OurAirports
+372,Stadtlohn-Vreden Airport,Stadtlohn,Germany,,EDLS,51.99583435058594,6.840556144714356,157,1.0,E,Europe/Berlin,airport,OurAirports
+373,Dortmund Airport,Dortmund,Germany,DTM,EDLW,51.51829910279999,7.61223983765,425,1.0,E,Europe/Berlin,airport,OurAirports
+374,Augsburg Airport,Augsburg,Germany,AGB,EDMA,48.425278,10.931667,1516,1.0,E,Europe/Berlin,airport,OurAirports
+375,Biberach a.d. Riß Airfield,Biberach,Germany,,EDMB,48.111111,9.762778,1903,1.0,E,Europe/Berlin,airport,OurAirports
+376,Eggenfelden Airport,Eggenfelden,Germany,,EDME,48.39611053466797,12.723610877990724,1342,1.0,E,Europe/Berlin,airport,OurAirports
+377,Mindelheim-Mattsies Airfield,Mindelheim,Germany,,EDMN,48.106945,10.525,1857,1.0,E,Europe/Berlin,airport,OurAirports
+378,Oberpfaffenhofen Airport,Oberpfaffenhofen,Germany,OBF,EDMO,48.081402,11.2831,1947,1.0,E,Europe/Berlin,airport,OurAirports
+379,Straubing Airport,Straubing,Germany,RBM,EDMS,48.90083312988281,12.516667366027832,1047,1.0,E,Europe/Berlin,airport,OurAirports
+380,Vilshofen Airport,Vilshofen,Germany,,EDMV,48.6349983215332,13.195555686950684,991,1.0,E,Europe/Berlin,airport,OurAirports
+381,Leutkirch-Unterzeil Airport,Leutkirch,Germany,,EDNL,47.85889053344727,10.014166831970217,2100,1.0,E,Europe/Berlin,airport,OurAirports
+382,Friedrichshafen Airport,Friedrichshafen,Germany,FDH,EDNY,47.6712989807,9.51148986816,1367,1.0,E,Europe/Berlin,airport,OurAirports
+383,Schwerin Parchim Airport,Parchim,Germany,SZW,EDOP,53.426998,11.7834,166,1.0,E,Europe/Berlin,airport,OurAirports
+384,Stendal-Borstel Airport,Stendal,Germany,,EDOV,52.62888717651367,11.818611145019531,184,1.0,E,Europe/Berlin,airport,OurAirports
+385,Aalen-Heidenheim/Elchingen Airport,Aalen-heidenheim,Germany,,EDPA,48.77777862548828,10.264721870422363,1916,1.0,E,Europe/Berlin,airport,OurAirports
+386,Bayreuth Airport,Bayreuth,Germany,BYU,EDQD,49.985001,11.64,1601,1.0,E,Europe/Berlin,airport,OurAirports
+387,Burg Feuerstein Airport,Burg Feuerstein,Germany,URD,EDQE,49.794166564941,11.133610725403,1673,1.0,E,Europe/Berlin,airport,OurAirports
+388,Hof-Plauen Airport,Hof,Germany,HOQ,EDQM,50.288612365722656,11.856389045715332,1959,1.0,E,Europe/Berlin,airport,OurAirports
+389,Haßfurt-Schweinfurt Airport,Hassfurt,Germany,,EDQT,50.0180549621582,10.529443740844728,719,1.0,E,Europe/Berlin,airport,OurAirports
+390,Koblenz-Winningen Airfield,Koblenz,Germany,,EDRK,50.325558,7.528611,640,1.0,E,Europe/Berlin,airport,OurAirports
+391,Trier-Föhren Airport,Trier,Germany,,EDRT,49.863888,6.7875,666,1.0,E,Europe/Berlin,airport,OurAirports
+392,Speyer Airfield,Speyer,Germany,,EDRY,49.304722,8.451389,312,1.0,E,Europe/Berlin,airport,OurAirports
+393,Zweibrücken Airport,Zweibruecken,Germany,ZQW,EDRZ,49.2094,7.40056,1132,1.0,E,Europe/Berlin,airport,OurAirports
+394,Donaueschingen-Villingen Airport,Donaueschingen,Germany,ZQL,EDTD,47.97333145139999,8.52222156525,2231,1.0,E,Europe/Berlin,airport,OurAirports
+395,Freiburg i. Br. Airport,Freiburg,Germany,,EDTF,48.022777557400005,7.83249998093,801,1.0,E,Europe/Berlin,airport,OurAirports
+396,Mengen-Hohentengen Airport,Mengen,Germany,,EDTM,48.05389022827149,9.372777938842772,1818,1.0,E,Europe/Berlin,airport,OurAirports
+397,Adolf Würth Airport,Schwaebisch Hall,Germany,,EDTY,49.1183319092,9.783888816829998,1299,1.0,E,Europe/Berlin,airport,OurAirports
+398,Finsterwalde/Schacksdorf Airport,Soest,Germany,,EDUS,51.607498,13.743611,384,1.0,E,Europe/Berlin,airport,OurAirports
+399,Braunschweig-Wolfsburg Airport,Braunschweig,Germany,BWE,EDVE,52.319199,10.5561,295,1.0,E,Europe/Berlin,airport,OurAirports
+400,Kassel-Calden Airport,Kassel,Germany,KSF,EDVK,51.417273,9.384967,820,1.0,E,Europe/Berlin,airport,OurAirports
+401,Hildesheim Airport,Hildesheim,Germany,,EDVM,52.18138885498047,9.946389198303224,292,1.0,E,Europe/Berlin,airport,OurAirports
+402,Bremerhaven Airport,Bremerhaven,Germany,BRV,EDWB,53.506943,8.572778,10,1.0,E,Europe/Berlin,airport,OurAirports
+403,Emden Airport,Emden,Germany,EME,EDWE,53.391109,7.2275,3,1.0,E,Europe/Berlin,airport,OurAirports
+404,Leer-Papenburg Airport,Leer,Germany,,EDWF,53.27194213867188,7.441667079925537,3,1.0,E,Europe/Berlin,airport,OurAirports
+405,Wilhelmshaven-Mariensiel Airport,Wilhelmshaven,Germany,WVN,EDWI,53.502220153808594,8.05222225189209,16,1.0,E,Europe/Berlin,airport,OurAirports
+406,Borkum Airport,Borkum,Germany,BMK,EDWR,53.59639,6.709167,3,1.0,E,Europe/Berlin,airport,OurAirports
+407,Norderney Airport,Norderney,Germany,NRD,EDWY,53.70694351196289,7.230000019073486,7,1.0,E,Europe/Berlin,airport,OurAirports
+408,Flensburg-Schäferhaus Airport,Flensburg,Germany,FLF,EDXF,54.77333450317383,9.378889083862305,131,1.0,E,Europe/Berlin,airport,OurAirports
+409,Rendsburg-Schachtholm Airport,Rendsburg,Germany,,EDXR,54.220001220703125,9.599444389343262,23,1.0,E,Europe/Berlin,airport,OurAirports
+410,Westerland Sylt Airport,Westerland,Germany,GWT,EDXW,54.9132003784,8.34047031403,51,1.0,E,Europe/Berlin,airport,OurAirports
+465,Belfast International Airport,Belfast,United Kingdom,BFS,EGAA,54.6575012207,-6.21582984924,268,0.0,E,Europe/London,airport,OurAirports
+466,St Angelo Airport,Enniskillen,United Kingdom,ENK,EGAB,54.39889907836914,-7.651669979095459,155,0.0,E,Europe/London,airport,OurAirports
+467,George Best Belfast City Airport,Belfast,United Kingdom,BHD,EGAC,54.61809921264648,-5.872499942779541,15,0.0,E,Europe/London,airport,OurAirports
+468,City of Derry Airport,Londonderry,United Kingdom,LDY,EGAE,55.04280090332031,-7.161109924316406,22,0.0,E,Europe/London,airport,OurAirports
+469,Birmingham International Airport,Birmingham,United Kingdom,BHX,EGBB,52.4538993835,-1.74802994728,327,0.0,E,Europe/London,airport,OurAirports
+470,Coventry Airport,Coventry,United Kingdom,CVT,EGBE,52.3697013855,-1.47971999645,267,0.0,E,Europe/London,airport,OurAirports
+471,Leicester Airport,Leicester,United Kingdom,,EGBG,52.6077995300293,-1.03193998336792,469,0.0,E,Europe/London,airport,OurAirports
+472,Gloucestershire Airport,Golouchestershire,United Kingdom,GLO,EGBJ,51.89419937133789,-2.167220115661621,101,0.0,E,Europe/London,airport,OurAirports
+474,Wolverhampton Halfpenny Green Airport,Halfpenny Green,United Kingdom,,EGBO,52.51750183105469,-2.259439945220948,283,0.0,E,Europe/London,airport,OurAirports
+475,Cotswold Airport,Pailton,United Kingdom,GBA,EGBP,51.668095,-2.05694,433,0.0,E,Europe/London,airport,OurAirports
+476,Turweston Airport,Turweston,United Kingdom,,EGBT,52.0407981873,-1.09555995464,448,0.0,E,Europe/London,airport,OurAirports
+477,Wellesbourne Mountford Airport,Wellesbourne,United Kingdom,,EGBW,52.19219970703125,-1.6144399642944336,159,0.0,E,Europe/London,airport,OurAirports
+478,Manchester Airport,Manchester,United Kingdom,MAN,EGCC,53.35369873046875,-2.2749500274658203,257,0.0,E,Europe/London,airport,OurAirports
+479,Manchester Woodford Airport,Woodfort,United Kingdom,,EGCD,53.3381,-2.14889,295,0.0,E,Europe/London,airport,OurAirports
+480,Royal Marines Base Chivenor Airport,Chivenor,United Kingdom,,EGDC,51.08720016479492,-4.150340080261231,27,0.0,E,Europe/London,airport,OurAirports
+481,Newquay Cornwall Airport,Newquai,United Kingdom,NQY,EGHQ,50.44060134887695,-4.995409965515137,390,0.0,E,Europe/London,airport,OurAirports
+482,RAF Lyneham,Lyneham,United Kingdom,LYE,EGDL,51.5051,-1.99343,513,0.0,E,Europe/London,airport,OurAirports
+483,MoD Boscombe Down Airport,Boscombe Down,United Kingdom,,EGDM,51.15219879150391,-1.7474100589752195,407,0.0,E,Europe/London,airport,OurAirports
+484,RNAS Culdrose,Culdrose,United Kingdom,,EGDR,50.08610153198242,-5.255710124969482,267,0.0,E,Europe/London,airport,OurAirports
+485,MoD St. Athan,St. Athan,United Kingdom,,EGDX,51.4048,-3.43575,163,0.0,E,Europe/London,airport,OurAirports
+486,RNAS Yeovilton,Yeovilton,United Kingdom,YEO,EGDY,51.0093994140625,-2.638819932937622,75,0.0,E,Europe/London,airport,OurAirports
+487,Haverfordwest Airport,Haverfordwest,United Kingdom,HAW,EGFE,51.833099365234375,-4.9611101150512695,159,0.0,E,Europe/London,airport,OurAirports
+488,Cardiff International Airport,Cardiff,United Kingdom,CWL,EGFF,51.39670181274414,-3.343329906463623,220,0.0,E,Europe/London,airport,OurAirports
+489,Swansea Airport,Swansea,United Kingdom,SWS,EGFH,51.60530090332031,-4.0678300857543945,299,0.0,E,Europe/London,airport,OurAirports
+490,Bristol Airport,Bristol,United Kingdom,BRS,EGGD,51.382702,-2.71909,622,0.0,E,Europe/London,airport,OurAirports
+491,Liverpool John Lennon Airport,Liverpool,United Kingdom,LPL,EGGP,53.33359909057617,-2.849720001220703,80,0.0,E,Europe/London,airport,OurAirports
+492,London Luton Airport,London,United Kingdom,LTN,EGGW,51.874698638916016,-0.3683330118656158,526,0.0,E,Europe/London,airport,OurAirports
+493,Plymouth City Airport,Plymouth,United Kingdom,PLH,EGHD,50.422798,-4.10583,476,0.0,E,Europe/London,airport,OurAirports
+494,Bournemouth Airport,Bournemouth,United Kingdom,BOH,EGHH,50.77999877929688,-1.8424999713897705,38,0.0,E,Europe/London,airport,OurAirports
+495,Southampton Airport,Southampton,United Kingdom,SOU,EGHI,50.95029830932617,-1.3567999601364136,44,0.0,E,Europe/London,airport,OurAirports
+496,Lasham Airport,Lasham,United Kingdom,QLA,EGHL,51.187198638916016,-1.0334999561309814,618,0.0,E,Europe/London,airport,OurAirports
+500,Shoreham Airport,Shoreham By Sea,United Kingdom,ESH,EGKA,50.835602,-0.297222,7,0.0,E,Europe/London,airport,OurAirports
+501,London Biggin Hill Airport,Biggin Hill,United Kingdom,BQH,EGKB,51.33079910279999,0.0324999988079,598,0.0,E,Europe/London,airport,OurAirports
+502,London Gatwick Airport,London,United Kingdom,LGW,EGKK,51.148102,-0.190278,202,0.0,E,Europe/London,airport,OurAirports
+503,London City Airport,London,United Kingdom,LCY,EGLC,51.505299,0.055278,19,0.0,E,Europe/London,airport,OurAirports
+504,Farnborough Airport,Farnborough,United Kingdom,FAB,EGLF,51.2757987976,-0.776332974434,238,0.0,E,Europe/London,airport,OurAirports
+505,Chalgrove Airport,Chalsgrove,United Kingdom,,EGLJ,51.67610168457031,-1.0808299779891968,240,0.0,E,Europe/London,airport,OurAirports
+506,Blackbushe Airport,Blackbushe,United Kingdom,BBS,EGLK,51.32389831542969,-0.8475000262260437,325,0.0,E,Europe/London,airport,OurAirports
+507,London Heathrow Airport,London,United Kingdom,LHR,EGLL,51.4706,-0.461941,83,0.0,E,Europe/London,airport,OurAirports
+508,Southend Airport,Southend,United Kingdom,SEN,EGMC,51.5713996887207,0.6955559849739075,49,0.0,E,Europe/London,airport,OurAirports
+509,Lydd Airport,Lydd,United Kingdom,LYX,EGMD,50.95610046386719,0.939167022705078,13,0.0,E,Europe/London,airport,OurAirports
+510,Kent International Airport,Manston,United Kingdom,MSE,EGMH,51.342201,1.34611,178,0.0,E,Europe/London,airport,OurAirports
+511,Brough Airport,Brough,United Kingdom,,EGNB,53.7197,-0.566333,12,0.0,E,Europe/London,airport,OurAirports
+512,Carlisle Airport,Carlisle,United Kingdom,CAX,EGNC,54.9375,-2.8091700077056885,190,0.0,E,Europe/London,airport,OurAirports
+513,Retford Gamston Airport,Repton,United Kingdom,,EGNE,53.28060150146485,-0.9513890147209167,91,0.0,E,Europe/London,airport,OurAirports
+514,Blackpool International Airport,Blackpool,United Kingdom,BLK,EGNH,53.77170181274414,-3.0286099910736084,34,0.0,E,Europe/London,airport,OurAirports
+515,Humberside Airport,Humberside,United Kingdom,HUY,EGNJ,53.57440185546875,-0.350832998752594,121,0.0,E,Europe/London,airport,OurAirports
+516,Barrow Walney Island Airport,Barrow Island,United Kingdom,BWF,EGNL,54.1286111,-3.2675,173,0.0,E,Europe/London,airport,OurAirports
+517,Leeds Bradford Airport,Leeds,United Kingdom,LBA,EGNM,53.86589813232422,-1.6605700254440308,681,0.0,E,Europe/London,airport,OurAirports
+518,Warton Airport,Warton,United Kingdom,WRT,EGNO,53.745098,-2.88306,55,0.0,E,Europe/London,airport,OurAirports
+519,Hawarden Airport,Hawarden,United Kingdom,CEG,EGNR,53.1781005859375,-2.977780103683472,45,0.0,E,Europe/London,airport,OurAirports
+521,Newcastle Airport,Newcastle,United Kingdom,NCL,EGNT,55.03749847412109,-1.6916699409484863,266,0.0,E,Europe/London,airport,OurAirports
+522,Durham Tees Valley Airport,Teesside,United Kingdom,MME,EGNV,54.50920104980469,-1.4294099807739258,120,0.0,E,Europe/London,airport,OurAirports
+523,East Midlands Airport,East Midlands,United Kingdom,EMA,EGNX,52.8311004639,-1.32806003094,306,0.0,E,Europe/London,airport,OurAirports
+524,Llanbedr Airport,Llanbedr,United Kingdom,,EGOD,52.811698913574,-4.1235799789429,30,0.0,E,Europe/London,airport,OurAirports
+525,RAF Ternhill,Ternhill,United Kingdom,,EGOE,52.87120056152344,-2.533560037612915,272,0.0,E,Europe/London,airport,OurAirports
+526,RAF Shawbury,Shawbury,United Kingdom,,EGOS,52.79819869995117,-2.668040037155152,249,0.0,E,Europe/London,airport,OurAirports
+528,RAF Woodvale,Woodvale,United Kingdom,,EGOW,53.5816,-3.05552,37,0.0,E,Europe/London,airport,OurAirports
+529,Kirkwall Airport,Kirkwall,United Kingdom,KOI,EGPA,58.957801818847656,-2.9049999713897705,50,0.0,E,Europe/London,airport,OurAirports
+530,Sumburgh Airport,Sumburgh,United Kingdom,LSI,EGPB,59.87889862060547,-1.295560002326965,20,0.0,E,Europe/London,airport,OurAirports
+531,Wick Airport,Wick,United Kingdom,WIC,EGPC,58.45890045166016,-3.09306001663208,126,0.0,E,Europe/London,airport,OurAirports
+532,Aberdeen Dyce Airport,Aberdeen,United Kingdom,ABZ,EGPD,57.20190048217773,-2.197779893875122,215,0.0,E,Europe/London,airport,OurAirports
+533,Inverness Airport,Inverness,United Kingdom,INV,EGPE,57.54249954223633,-4.047500133514404,31,0.0,E,Europe/London,airport,OurAirports
+534,Glasgow International Airport,Glasgow,United Kingdom,GLA,EGPF,55.8718986511,-4.43306016922,26,0.0,E,Europe/London,airport,OurAirports
+535,Edinburgh Airport,Edinburgh,United Kingdom,EDI,EGPH,55.95000076293945,-3.372499942779541,135,0.0,E,Europe/London,airport,OurAirports
+536,Islay Airport,Islay,United Kingdom,ILY,EGPI,55.68190002441406,-6.256669998168945,56,0.0,E,Europe/London,airport,OurAirports
+537,Glasgow Prestwick Airport,Prestwick,United Kingdom,PIK,EGPK,55.5093994140625,-4.586669921875,65,0.0,E,Europe/London,airport,OurAirports
+538,Benbecula Airport,Benbecula,United Kingdom,BEB,EGPL,57.48109817504883,-7.362780094146728,19,0.0,E,Europe/London,airport,OurAirports
+539,Scatsta Airport,Scatsta,United Kingdom,SCS,EGPM,60.43280029296875,-1.2961100339889526,81,0.0,E,Europe/London,airport,OurAirports
+540,Dundee Airport,Dundee,United Kingdom,DND,EGPN,56.45249938964844,-3.025830030441284,17,0.0,E,Europe/London,airport,OurAirports
+541,Stornoway Airport,Stornoway,United Kingdom,SYY,EGPO,58.215599060058594,-6.331110000610352,26,0.0,E,Europe/London,airport,OurAirports
+542,Tiree Airport,Tiree,United Kingdom,TRE,EGPU,56.49919891357422,-6.869170188903809,38,0.0,E,Europe/London,airport,OurAirports
+543,RAF Leuchars,Leuchars,United Kingdom,ADX,EGQL,56.37289810180664,-2.8684399127960205,38,0.0,E,Europe/London,airport,OurAirports
+544,RAF Lossiemouth,Lossiemouth,United Kingdom,LMO,EGQS,57.7052001953125,-3.339169979095459,42,0.0,E,Europe/London,airport,OurAirports
+545,Cambridge Airport,Cambridge,United Kingdom,CBG,EGSC,52.205002,0.175,47,0.0,E,Europe/London,airport,OurAirports
+546,Peterborough Business Airport,Peterborough,United Kingdom,,EGSF,52.46810150146485,-0.2511110007762909,26,0.0,E,Europe/London,airport,OurAirports
+547,Norwich International Airport,Norwich,United Kingdom,NWI,EGSH,52.6758003235,1.28278005123,117,0.0,E,Europe/London,airport,OurAirports
+548,London Stansted Airport,London,United Kingdom,STN,EGSS,51.8849983215,0.234999999404,348,0.0,E,Europe/London,airport,OurAirports
+549,North Weald Airport,North Weald,United Kingdom,,EGSX,51.721698761,0.154166996479,321,0.0,E,Europe/London,airport,OurAirports
+550,Sheffield City Heliport,Fowlmere,United Kingdom,,EGSY,53.394299,-1.38849,231,0.0,E,Europe/London,airport,OurAirports
+551,Cranfield Airport,Cranfield,United Kingdom,,EGTC,52.0722007751,-0.616666972637,358,0.0,E,Europe/London,airport,OurAirports
+552,Exeter International Airport,Exeter,United Kingdom,EXT,EGTE,50.73440170288086,-3.4138898849487305,102,0.0,E,Europe/London,airport,OurAirports
+553,Bristol Filton Airport,Bristol,United Kingdom,FZO,EGTG,51.5194015503,-2.59083008766,226,0.0,E,Europe/London,airport,OurAirports
+554,Oxford (Kidlington) Airport,Oxford,United Kingdom,OXF,EGTK,51.8368988037,-1.32000005245,270,0.0,E,Europe/London,airport,OurAirports
+555,RAF Benson,Benson,United Kingdom,BEX,EGUB,51.6164016724,-1.09582996368,226,0.0,E,Europe/London,airport,OurAirports
+556,RAF Lakenheath,Lakenheath,United Kingdom,LKZ,EGUL,52.4093017578,0.56099998951,32,0.0,E,Europe/London,airport,OurAirports
+557,RAF Mildenhall,Mildenhall,United Kingdom,MHZ,EGUN,52.36190032958984,0.486405998468399,33,0.0,E,Europe/London,airport,OurAirports
+558,RAF Wattisham,Wattisham,United Kingdom,,EGUW,52.1273002625,0.956264019012,284,0.0,E,Europe/London,airport,OurAirports
+559,RAF Wyton,Wyton,United Kingdom,QUY,EGUY,52.3572006226,-0.107832998037,135,0.0,E,Europe/London,airport,OurAirports
+560,RAF Fairford,Fairford,United Kingdom,FFD,EGVA,51.6822013855,-1.7900300025900002,286,0.0,E,Europe/London,airport,OurAirports
+561,RAF Brize Norton,Brize Norton,United Kingdom,BZZ,EGVN,51.75,-1.58362,288,0.0,E,Europe/London,airport,OurAirports
+562,RAF Odiham,Odiham,United Kingdom,ODH,EGVO,51.2341003418,-0.94282501936,405,0.0,E,Europe/London,airport,OurAirports
+563,DCAE Cosford Air Base,Cosford,United Kingdom,,EGWC,52.639999,-2.30558,272,0.0,E,Europe/London,airport,OurAirports
+564,RAF Northolt,Northolt,United Kingdom,NHT,EGWU,51.5530014038,-0.418166995049,124,0.0,E,Europe/London,airport,OurAirports
+565,RAF Coningsby,Coningsby,United Kingdom,QCY,EGXC,53.0929985046,-0.166014000773,25,0.0,E,Europe/London,airport,OurAirports
+566,RAF Dishforth,Dishforth,United Kingdom,,EGXD,54.1371994019,-1.42025005817,117,0.0,E,Europe/London,airport,OurAirports
+567,Leeming Airport,Leeming,United Kingdom,,EGXE,54.2924,-1.5354,132,0.0,E,Europe/London,airport,OurAirports
+568,Leeds East Airport,Church Fenton,United Kingdom,,EGXG,53.834301,-1.1955,29,0.0,E,Europe/London,airport,OurAirports
+569,RAF Honington,Honington,United Kingdom,BEQ,EGXH,52.34260177612305,0.7729390263557434,174,0.0,E,Europe/London,airport,OurAirports
+570,RAF Cottesmore,Cottesmore,United Kingdom,,EGXJ,52.735699,-0.648769,461,0.0,E,Europe/London,airport,OurAirports
+571,RAF Scampton,Scampton,United Kingdom,SQZ,EGXP,53.307800293,-0.550832986832,202,0.0,E,Europe/London,airport,OurAirports
+572,RAF Wittering,Wittering,United Kingdom,,EGXT,52.612598,-0.476453,273,0.0,E,Europe/London,airport,OurAirports
+573,RAF Linton-On-Ouse,Linton-on-ouse,United Kingdom,HRT,EGXU,54.0489006042,-1.2527500391,53,0.0,E,Europe/London,airport,OurAirports
+574,RAF Waddington,Waddington,United Kingdom,WTN,EGXW,53.1661987305,-0.523810982704,231,0.0,E,Europe/London,airport,OurAirports
+575,RAF Topcliffe,Topcliffe,United Kingdom,,EGXZ,54.2055015564,-1.3820899725,92,0.0,E,Europe/London,airport,OurAirports
+576,RAF Cranwell,Cranwell,United Kingdom,,EGYD,53.0303001404,-0.48324200511,218,0.0,E,Europe/London,airport,OurAirports
+577,RAF Barkston Heath,Barkston Heath,United Kingdom,,EGYE,52.9622001648,-0.561625003815,367,0.0,E,Europe/London,airport,OurAirports
+578,RAF Marham,Marham,United Kingdom,KNF,EGYM,52.648395,0.550692,75,0.0,E,Europe/London,airport,OurAirports
+580,Amsterdam Airport Schiphol,Amsterdam,Netherlands,AMS,EHAM,52.308601,4.76389,-11,1.0,E,Europe/Amsterdam,airport,OurAirports
+581,Budel Airfield Kempen,Weert,Netherlands,,EHBD,51.255299,5.60139,114,1.0,E,Europe/Amsterdam,airport,OurAirports
+582,Maastricht Aachen Airport,Maastricht,Netherlands,MST,EHBK,50.911701,5.77014,375,1.0,E,Europe/Amsterdam,airport,OurAirports
+583,Deelen Air Base,Deelen,Netherlands,,EHDL,52.0606,5.87306,158,1.0,E,Europe/Amsterdam,airport,OurAirports
+584,Drachten Airport,Drachten,Netherlands,,EHDR,53.1192016602,6.12972021103,14,1.0,E,Europe/Amsterdam,airport,OurAirports
+585,Eindhoven Airport,Eindhoven,Netherlands,EIN,EHEH,51.4500999451,5.37452983856,74,1.0,E,Europe/Amsterdam,airport,OurAirports
+586,Eelde Airport,Groningen,Netherlands,GRQ,EHGG,53.1197013855,6.57944011688,17,1.0,E,Europe/Amsterdam,airport,OurAirports
+587,Gilze Rijen Air Base,Gilze-rijen,Netherlands,GLZ,EHGR,51.56740188598633,4.931829929351807,49,1.0,E,Europe/Amsterdam,airport,OurAirports
+588,De Kooy Airport,De Kooy,Netherlands,DHR,EHKD,52.92340087890625,4.780620098114014,3,1.0,E,Europe/Amsterdam,airport,OurAirports
+589,Lelystad Airport,Lelystad,Netherlands,LEY,EHLE,52.4603,5.52722,-13,1.0,E,Europe/Amsterdam,airport,OurAirports
+590,Leeuwarden Air Base,Leeuwarden,Netherlands,LWR,EHLW,53.22859954833984,5.760560035705566,3,1.0,E,Europe/Amsterdam,airport,OurAirports
+591,Rotterdam The Hague Airport,Rotterdam,Netherlands,RTM,EHRD,51.956902,4.43722,-15,1.0,E,Europe/Amsterdam,airport,OurAirports
+592,Soesterberg Air Base,Soesterberg,Netherlands,UTC,EHSB,52.1273002625,5.27618980408,66,1.0,E,Europe/Amsterdam,airport,OurAirports
+593,Twente Airport,Enschede,Netherlands,ENS,EHTW,52.275833,6.889167,114,1.0,E,Europe/Amsterdam,airport,OurAirports
+594,Valkenburg Naval Air Base,Valkenburg,Netherlands,LID,EHVB,52.1660995483,4.41794013977,1,1.0,E,Europe/Amsterdam,airport,OurAirports
+595,Woensdrecht Air Base,Woensdrecht,Netherlands,WOE,EHWO,51.4491,4.34203,63,1.0,E,Europe/Amsterdam,airport,OurAirports
+596,Cork Airport,Cork,Ireland,ORK,EICK,51.84130096435547,-8.491109848022461,502,0.0,E,Europe/Dublin,airport,OurAirports
+597,Galway Airport,Galway,Ireland,GWY,EICM,53.300201416015625,-8.941590309143066,81,0.0,E,Europe/Dublin,airport,OurAirports
+599,Dublin Airport,Dublin,Ireland,DUB,EIDW,53.421299,-6.27007,242,0.0,E,Europe/Dublin,airport,OurAirports
+600,Ireland West Knock Airport,Connaught,Ireland,NOC,EIKN,53.910301208496094,-8.818490028381348,665,0.0,E,Europe/Dublin,airport,OurAirports
+601,Kerry Airport,Kerry,Ireland,KIR,EIKY,52.18090057373047,-9.52377986907959,112,0.0,E,Europe/Dublin,airport,OurAirports
+602,Casement Air Base,Casement,Ireland,,EIME,53.301700592,-6.451330184940001,319,0.0,E,Europe/Dublin,airport,OurAirports
+603,Shannon Airport,Shannon,Ireland,SNN,EINN,52.702,-8.92482,46,0.0,E,Europe/Dublin,airport,OurAirports
+604,Sligo Airport,Sligo,Ireland,SXL,EISG,54.280200958252,-8.5992097854614,11,0.0,E,Europe/Dublin,airport,OurAirports
+605,Waterford Airport,Waterford,Ireland,WAT,EIWF,52.187198638916016,-7.086959838867188,119,0.0,E,Europe/Dublin,airport,OurAirports
+750,Spangdahlem Air Base,Spangdahlem,Germany,SPM,ETAD,49.9726982117,6.69250011444,1197,1.0,E,Europe/Berlin,airport,OurAirports
+751,Ramstein Air Base,Ramstein,Germany,RMS,ETAR,49.4369010925293,7.600279808044434,776,1.0,E,Europe/Berlin,airport,OurAirports
+753,[Duplicate] Giebelstadt Army Air Field,Giebelstadt,Germany,GHF,ETEU,49.6481018066,9.966489791870002,980,1.0,E,Europe/Berlin,airport,OurAirports
+754,Bückeburg Air Base,Brueckeburg,Germany,,ETHB,52.2785,9.08217,230,1.0,E,Europe/Berlin,airport,OurAirports
+755,Celle Airport,Celle,Germany,ZCN,ETHC,52.59120178222656,10.022100448608398,129,1.0,E,Europe/Berlin,airport,OurAirports
+756,Rheine Bentlage Air Base,Rheine-brentlange,Germany,,ETHE,52.291199,7.387,129,1.0,E,Europe/Berlin,airport,OurAirports
+757,Fritzlar Airport,Fritzlar,Germany,FRZ,ETHF,51.1146,9.286,1345,1.0,E,Europe/Berlin,airport,OurAirports
+758,Laupheim Air Base,Laupheim,Germany,,ETHL,48.220299,9.91002,1766,1.0,E,Europe/Berlin,airport,OurAirports
+759,Mendig Airfield,Mendig,Germany,,ETHM,50.366001,7.31533,597,1.0,E,Europe/Berlin,airport,OurAirports
+760,Niederstetten Army Air Base,Niederstetten,Germany,,ETHN,49.391945,9.958889,1339,1.0,E,Europe/Berlin,airport,OurAirports
+761,Roth Airport,Roth,Germany,,ETHR,49.21749877929688,11.100199699401855,1268,1.0,E,Europe/Berlin,airport,OurAirports
+762,Fassberg Air Base,Fassberg,Germany,,ETHS,52.919399,10.185827,245,1.0,E,Europe/Berlin,airport,OurAirports
+763,Grafenwohr Army Air Field,Grafenwoehr,Germany,,ETIC,49.69869995117188,11.940199851989746,1363,1.0,E,Europe/Berlin,airport,OurAirports
+764,Hanau Army Air Field,Hanau,Germany,ZNF,ETID,50.169201,8.96159,368,1.0,E,Europe/Berlin,airport,OurAirports
+765,Hohenfels Army Air Field,Hohenfels,Germany,,ETIH,49.21810150146485,11.836099624633787,1455,1.0,E,Europe/Berlin,airport,OurAirports
+766,Flugplatz Kitzingen,Kitzingen,Germany,KZG,ETIN,49.743099,10.2006,689,1.0,E,Europe/Berlin,airport,OurAirports
+767,Nordholz Naval Airbase,Nordholz,Germany,FCN,ETMN,53.7677001953,8.658499717709999,74,1.0,E,Europe/Berlin,airport,OurAirports
+768,Diepholz Air Base,Diepholz,Germany,,ETND,52.585556,8.342222,128,1.0,E,Europe/Berlin,airport,OurAirports
+769,Geilenkirchen Air Base,Geilenkirchen,Germany,GKE,ETNG,50.9608,6.04242,296,1.0,E,Europe/Berlin,airport,OurAirports
+770,Hohn Air Base,Hohn,Germany,,ETNH,54.312199,9.53817,39,1.0,E,Europe/Berlin,airport,OurAirports
+771,Jever Air Base,Jever,Germany,,ETNJ,53.533501,7.88867,24,1.0,E,Europe/Berlin,airport,OurAirports
+772,Rostock-Laage Airport,Laage,Germany,RLG,ETNL,53.9182014465,12.2783002853,138,1.0,E,Europe/Berlin,airport,OurAirports
+773,Nörvenich Air Base,Noervenich,Germany,,ETNN,50.8312,6.65817,386,1.0,E,Europe/Berlin,airport,OurAirports
+774,Schleswig Air Base,Schleswig,Germany,WBG,ETNS,54.459301,9.51633,70,1.0,E,Europe/Berlin,airport,OurAirports
+775,Wittmundhafen Airport,Wittmundhafen,Germany,,ETNT,53.54779815673828,7.667329788208008,26,1.0,E,Europe/Berlin,airport,OurAirports
+777,Wunstorf Air Base,Wunstorf,Germany,,ETNW,52.457298,9.42717,187,1.0,E,Europe/Berlin,airport,OurAirports
+778,Vilseck Army Air Field,Vilseck,Germany,,ETOI,49.63359832763672,11.767200469970703,1353,1.0,E,Europe/Berlin,airport,OurAirports
+779,Coleman Army Air Field,Coleman,Germany,,ETOR,49.5635986328125,8.463390350341797,309,1.0,E,Europe/Berlin,airport,OurAirports
+780,Wiesbaden Army Airfield,Wiesbaden,Germany,WIE,ETOU,50.049800872802734,8.325400352478027,461,1.0,E,Europe/Berlin,airport,OurAirports
+781,Landsberg Lech Air Base,Landsberg,Germany,,ETSA,48.070599,10.906,2044,1.0,E,Europe/Berlin,airport,OurAirports
+782,Büchel Air Base,Buechel,Germany,,ETSB,50.1738014221,7.06333017349,1568,1.0,E,Europe/Berlin,airport,OurAirports
+783,Erding Airport,Erding,Germany,,ETSE,48.32229995727539,11.948699951171877,1515,1.0,E,Europe/Berlin,airport,OurAirports
+784,Fürstenfeldbruck Air Base,Fuerstenfeldbruck,Germany,FEL,ETSF,48.205555,11.266944,1703,1.0,E,Europe/Berlin,airport,OurAirports
+785,Holzdorf Air Base,Holzdorf,Germany,,ETSH,51.767799,13.1677,265,1.0,E,Europe/Berlin,airport,OurAirports
+786,Ingolstadt Manching Airport,Ingolstadt,Germany,IGS,ETSI,48.7156982421875,11.534000396728516,1202,1.0,E,Europe/Berlin,airport,OurAirports
+787,Lechfeld Air Base,Lechfeld,Germany,,ETSL,48.185504,10.8612,1822,1.0,E,Europe/Berlin,airport,OurAirports
+788,Neuburg AFB,Neuburg,Germany,,ETSN,48.710999,11.2115,1249,1.0,E,Europe/Berlin,airport,OurAirports
+789,Gütersloh Air Base,Guetersloh,Germany,GUT,ETUO,51.922798,8.30633,236,1.0,E,Europe/Berlin,airport,OurAirports
+1051,Fuerteventura Airport,Fuerteventura,Spain,FUE,GCFV,28.452699661254883,-13.863800048828123,85,0.0,E,Atlantic/Canary,airport,OurAirports
+1052,Hierro Airport,Hierro,Spain,VDE,GCHI,27.81480026245117,-17.887100219726562,103,0.0,E,Atlantic/Canary,airport,OurAirports
+1053,La Palma Airport,Santa Cruz De La Palma,Spain,SPC,GCLA,28.626499,-17.7556,107,0.0,E,Atlantic/Canary,airport,OurAirports
+1054,Gran Canaria Airport,Gran Canaria,Spain,LPA,GCLP,27.931900024414062,-15.38659954071045,78,0.0,E,Atlantic/Canary,airport,OurAirports
+1055,Lanzarote Airport,Arrecife,Spain,ACE,GCRR,28.945499,-13.6052,46,0.0,E,Atlantic/Canary,airport,OurAirports
+1056,Tenerife South Airport,Tenerife,Spain,TFS,GCTS,28.044500351,-16.5725002289,209,0.0,E,Atlantic/Canary,airport,OurAirports
+1057,Tenerife Norte Airport,Tenerife,Spain,TFN,GCXO,28.4827003479,-16.3414993286,2076,0.0,E,Atlantic/Canary,airport,OurAirports
+1058,Melilla Airport,Melilla,Spain,MLN,GEML,35.279800415,-2.9562599659,156,1.0,E,Europe/Madrid,airport,OurAirports
+1211,Albacete-Los Llanos Airport,Albacete,Spain,ABC,LEAB,38.9485015869,-1.86352002621,2302,1.0,E,Europe/Madrid,airport,OurAirports
+1212,Alicante International Airport,Alicante,Spain,ALC,LEAL,38.28219985961914,-0.5581560134887695,142,1.0,E,Europe/Madrid,airport,OurAirports
+1213,Almería International Airport,Almeria,Spain,LEI,LEAM,36.84389877319336,-2.3701000213623047,70,1.0,E,Europe/Madrid,airport,OurAirports
+1214,Asturias Airport,Aviles,Spain,OVD,LEAS,43.5635986328125,-6.0346198081970215,416,1.0,E,Europe/Madrid,airport,OurAirports
+1215,Córdoba Airport,Cordoba,Spain,ODB,LEBA,37.84199905395508,-4.848879814147949,297,1.0,E,Europe/Madrid,airport,OurAirports
+1216,Bilbao Airport,Bilbao,Spain,BIO,LEBB,43.30110168457031,-2.9106099605560303,138,1.0,E,Europe/Madrid,airport,OurAirports
+1218,Barcelona International Airport,Barcelona,Spain,BCN,LEBL,41.2971,2.07846,12,1.0,E,Europe/Madrid,airport,OurAirports
+1219,Badajoz Airport,Badajoz,Spain,BJZ,LEBZ,38.891300201416016,-6.8213300704956055,609,1.0,E,Europe/Madrid,airport,OurAirports
+1220,A Coruña Airport,La Coruna,Spain,LCG,LECO,43.302101,-8.37726,326,1.0,E,Europe/Madrid,airport,OurAirports
+1221,Armilla Air Base,Granada,Spain,,LEGA,37.1332016,-3.63568997,2297,1.0,E,Europe/Madrid,airport,OurAirports
+1222,Girona Airport,Gerona,Spain,GRO,LEGE,41.901000977,2.7605500221,468,1.0,E,Europe/Madrid,airport,OurAirports
+1223,Federico Garcia Lorca Airport,Granada,Spain,GRX,LEGR,37.18870162963867,-3.777359962463379,1860,1.0,E,Europe/Madrid,airport,OurAirports
+1224,Getafe Air Base,Madrid,Spain,,LEGT,40.29410171508789,-3.723829984664917,2031,1.0,E,Europe/Madrid,airport,OurAirports
+1225,Ibiza Airport,Ibiza,Spain,IBZ,LEIB,38.8728981018,1.3731199502899998,24,1.0,E,Europe/Madrid,airport,OurAirports
+1226,Jerez Airport,Jerez,Spain,XRY,LEJR,36.74459838867188,-6.060110092163086,93,1.0,E,Europe/Madrid,airport,OurAirports
+1227,San Javier Airport,Murcia,Spain,MJV,LELC,37.775001525878906,-0.8123890161514282,11,1.0,E,Europe/Madrid,airport,OurAirports
+1229,Adolfo Suárez Madrid–Barajas Airport,Madrid,Spain,MAD,LEMD,40.471926,-3.56264,1998,1.0,E,Europe/Madrid,airport,OurAirports
+1230,Málaga Airport,Malaga,Spain,AGP,LEMG,36.67490005493164,-4.499110221862793,53,1.0,E,Europe/Madrid,airport,OurAirports
+1231,Menorca Airport,Menorca,Spain,MAH,LEMH,39.86259841918945,4.218649864196777,302,1.0,E,Europe/Madrid,airport,OurAirports
+1232,Moron Air Base,Sevilla,Spain,OZP,LEMO,37.17490005493164,-5.615940093994141,285,1.0,E,Europe/Madrid,airport,OurAirports
+1233,Ocaña Airport,Ocana,Spain,,LEOC,39.9375,-3.5033299922943115,2405,1.0,E,Europe/Madrid,airport,OurAirports
+1234,Pamplona Airport,Pamplona,Spain,PNA,LEPP,42.77000045776367,-1.6463299989700315,1504,1.0,E,Europe/Madrid,airport,OurAirports
+1235,Alcantarilla Air Base,Murcia,Spain,,LERI,37.951099,-1.23032,250,1.0,E,Europe/Madrid,airport,OurAirports
+1236,Reus Air Base,Reus,Spain,REU,LERS,41.14739990234375,1.1671700477600098,233,1.0,E,Europe/Madrid,airport,OurAirports
+1237,Rota Naval Station Airport,Rota,Spain,ROZ,LERT,36.645198822,-6.34946012497,86,1.0,E,Europe/Madrid,airport,OurAirports
+1238,Salamanca Airport,Salamanca,Spain,SLM,LESA,40.95209884643555,-5.501989841461182,2595,1.0,E,Europe/Madrid,airport,OurAirports
+1239,Son Bonet Airport,Son Bonet,Spain,,LESB,39.598899841308594,2.70278000831604,157,1.0,E,Europe/Madrid,airport,OurAirports
+1241,San Luis Airport,San Luis,Spain,,LESL,39.86220169067383,4.25832986831665,197,1.0,E,Europe/Madrid,airport,OurAirports
+1242,San Sebastian Airport,San Sebastian,Spain,EAS,LESO,43.35649871826172,-1.7906099557876587,16,1.0,E,Europe/Madrid,airport,OurAirports
+1243,Santiago de Compostela Airport,Santiago,Spain,SCQ,LEST,42.89630126953125,-8.415140151977539,1213,1.0,E,Europe/Madrid,airport,OurAirports
+1244,Pirineus - la Seu d'Urgel Airport,Seo De Urgel,Spain,LEU,LESU,42.3386,1.40917,2625,1.0,E,Europe/Madrid,airport,OurAirports
+1245,Torrejón Airport,Madrid,Spain,TOJ,LETO,40.496700286865234,-3.4458699226379395,2026,1.0,E,Europe/Madrid,airport,OurAirports
+1246,Valencia Airport,Valencia,Spain,VLC,LEVC,39.4893,-0.481625,240,1.0,E,Europe/Madrid,airport,OurAirports
+1247,Valladolid Airport,Valladolid,Spain,VLL,LEVD,41.7061004639,-4.85194015503,2776,1.0,E,Europe/Madrid,airport,OurAirports
+1249,Vitoria/Foronda Airport,Vitoria,Spain,VIT,LEVT,42.8828010559082,-2.7244699001312256,1682,1.0,E,Europe/Madrid,airport,OurAirports
+1250,Vigo Airport,Vigo,Spain,VGO,LEVX,42.2318000793457,-8.62677001953125,856,1.0,E,Europe/Madrid,airport,OurAirports
+1251,Santander Airport,Santander,Spain,SDR,LEXJ,43.42710113525391,-3.82000994682312,16,1.0,E,Europe/Madrid,airport,OurAirports
+1252,Zaragoza Air Base,Zaragoza,Spain,ZAZ,LEZG,41.66619873046875,-1.0415500402450562,863,1.0,E,Europe/Madrid,airport,OurAirports
+1253,Sevilla Airport,Sevilla,Spain,SVQ,LEZL,37.417999267578125,-5.8931097984313965,112,1.0,E,Europe/Madrid,airport,OurAirports
+1254,Calais-Dunkerque Airport,Calais,France,CQF,LFAC,50.962100982666016,1.954759955406189,12,1.0,E,Europe/Paris,airport,OurAirports
+1255,Péronne-Saint-Quentin Airport,Peronne,France,,LFAG,49.8685,3.02958,295,1.0,E,Europe/Paris,airport,OurAirports
+1256,Nangis-Les Loges Airport,Nangis,France,,LFAI,48.59619903564453,3.0067899227142334,428,1.0,E,Europe/Paris,airport,OurAirports
+1257,Bagnoles-de-l'Orne-Couterne Airport,Bagnole-de-l'orne,France,,LFAO,48.54579925537109,-0.3874439895153045,718,1.0,E,Europe/Paris,airport,OurAirports
+1258,Albert-Bray Airport,Albert,France,BYF,LFAQ,49.9715003967,2.69765996933,364,1.0,E,Europe/Paris,airport,OurAirports
+1259,Le Touquet-Côte d'Opale Airport,Le Tourquet,France,LTQ,LFAT,50.51739883422852,1.6205899715423584,36,1.0,E,Europe/Paris,airport,OurAirports
+1260,Valenciennes-Denain Airport,Valenciennes,France,XVS,LFAV,50.325801849365234,3.4612600803375244,177,1.0,E,Europe/Paris,airport,OurAirports
+1261,Amiens-Glisy Airport,Amiens,France,,LFAY,49.873004,2.387074,208,1.0,E,Europe/Paris,airport,OurAirports
+1262,Agen-La Garenne Airport,Agen,France,AGF,LFBA,44.17470169067383,0.5905560255050659,204,1.0,E,Europe/Paris,airport,OurAirports
+1263,Cazaux (BA 120) Air Base,Cazaux,France,,LFBC,44.53329849243164,-1.125,84,1.0,E,Europe/Paris,airport,OurAirports
+1264,Bordeaux-Mérignac Airport,Bordeaux,France,BOD,LFBD,44.8283004761,-0.715556025505,162,1.0,E,Europe/Paris,airport,OurAirports
+1265,Bergerac-Roumanière Airport,Bergerac,France,EGC,LFBE,44.82529830932617,0.5186110138893127,171,1.0,E,Europe/Paris,airport,OurAirports
+1266,Toulouse-Francazal (BA 101) Air Base,Toulouse,France,,LFBF,43.54560089111328,1.3674999475479126,535,1.0,E,Europe/Paris,airport,OurAirports
+1267,Cognac-Châteaubernard (BA 709) Air Base,Cognac,France,CNG,LFBG,45.65829849243164,-0.3174999952316284,102,1.0,E,Europe/Paris,airport,OurAirports
+1268,Poitiers-Biard Airport,Poitiers,France,PIS,LFBI,46.58769989013672,0.3066659867763519,423,1.0,E,Europe/Paris,airport,OurAirports
+1269,Montluçon-Guéret Airport,Montlucon-gueret,France,MCU,LFBK,46.222599029541016,2.363960027694702,1497,1.0,E,Europe/Paris,airport,OurAirports
+1270,Limoges Airport,Limoges,France,LIG,LFBL,45.86280059814453,1.1794400215148926,1300,1.0,E,Europe/Paris,airport,OurAirports
+1271,Mont-de-Marsan (BA 118) Air Base,Mont-de-marsan,France,,LFBM,43.911701,-0.5075,203,1.0,E,Europe/Paris,airport,OurAirports
+1272,Niort-Souché Airport,Niort,France,NIT,LFBN,46.313477,-0.394529,203,1.0,E,Europe/Paris,airport,OurAirports
+1273,Toulouse-Blagnac Airport,Toulouse,France,TLS,LFBO,43.629101,1.36382,499,1.0,E,Europe/Paris,airport,OurAirports
+1274,Pau Pyrénées Airport,Pau,France,PUF,LFBP,43.380001068115234,-0.4186109900474548,616,1.0,E,Europe/Paris,airport,OurAirports
+1275,Muret-Lherm Airport,La Rochelle,France,,LFBR,43.44889831542969,1.2633299827575684,622,1.0,E,Europe/Paris,airport,OurAirports
+1276,Tarbes-Lourdes-Pyrénées Airport,Tarbes,France,LDE,LFBT,43.1786994934082,-0.0064389999024569,1260,1.0,E,Europe/Paris,airport,OurAirports
+1277,Angoulême-Brie-Champniers Airport,Angouleme,France,ANG,LFBU,45.72919845581055,0.2214560061693191,436,1.0,E,Europe/Paris,airport,OurAirports
+1278,Brive Souillac Airport,Brive,France,BVE,LFSL,45.039722,1.485556,1016,1.0,E,Europe/Paris,airport,OurAirports
+1279,Périgueux-Bassillac Airport,Perigueux,France,PGX,LFBX,45.19810104370117,0.815555989742279,328,1.0,E,Europe/Paris,airport,OurAirports
+1280,Biarritz-Anglet-Bayonne Airport,Biarritz-bayonne,France,BIQ,LFBZ,43.4683333,-1.5311111,245,1.0,E,Europe/Paris,airport,OurAirports
+1281,Cahors-Lalbenque Airport,Cahors,France,ZAO,LFCC,44.35139846801758,1.4752800464630127,912,1.0,E,Europe/Paris,airport,OurAirports
+1282,Saint-Girons-Antichan Airport,St.-girons,France,,LFCG,43.0078010559082,1.1031500101089478,1368,1.0,E,Europe/Paris,airport,OurAirports
+1283,Arcachon-La Teste-de-Buch Airport,Arcachon,France,,LFCH,44.596401,-1.11083,49,1.0,E,Europe/Paris,airport,OurAirports
+1284,Albi-Le Séquestre Airport,Albi,France,LBI,LFCI,43.91389846801758,2.1130599975585938,564,1.0,E,Europe/Paris,airport,OurAirports
+1285,Castres-Mazamet Airport,Castres,France,DCM,LFCK,43.55630111694336,2.289180040359497,788,1.0,E,Europe/Paris,airport,OurAirports
+1286,Toulouse-Lasbordes Airport,Toulouse,France,,LFCL,43.58610153198242,1.499169945716858,459,1.0,E,Europe/Paris,airport,OurAirports
+1287,Millau-Larzac Airfield,Millau,France,,LFCM,43.9893,3.183,2606,1.0,E,Europe/Paris,airport,OurAirports
+1288,Graulhet-Montdragon Airport,Graulhet,France,,LFCQ,43.77109909057617,2.0108299255371094,581,1.0,E,Europe/Paris,airport,OurAirports
+1289,Rodez-Marcillac Airport,Rodez,France,RDZ,LFCR,44.407901763916016,2.4826700687408447,1910,1.0,E,Europe/Paris,airport,OurAirports
+1290,Ussel-Thalamy Airport,Ussel,France,,LFCU,45.534698486328125,2.4238901138305664,2428,1.0,E,Europe/Paris,airport,OurAirports
+1291,Villeneuve-sur-Lot Airport,Villeneuve-sur-lot,France,,LFCW,44.39690017700195,0.7588890194892883,190,1.0,E,Europe/Paris,airport,OurAirports
+1292,Royan-Médis Airport,Royan,France,RYN,LFCY,45.62810134887695,-0.9725000262260436,72,1.0,E,Europe/Paris,airport,OurAirports
+1293,Mimizan Airport,Mimizan,France,,LFCZ,44.145928,-1.16432,164,1.0,E,Europe/Paris,airport,OurAirports
+1294,Aire-sur-l'Adour Airport,Aire-sur-l'adour,France,,LFDA,43.70940017700195,-0.245278000831604,259,1.0,E,Europe/Paris,airport,OurAirports
+1295,Montauban Airport,Montauban,France,XMW,LFDB,44.02569961547852,1.3780399560928345,351,1.0,E,Europe/Paris,airport,OurAirports
+1296,Auch-Lamothe Airport,Auch,France,,LFDH,43.687801,0.601667,411,1.0,E,Europe/Paris,airport,OurAirports
+1297,Libourne-Artigues-de-Lussac Airport,Libourne,France,,LFDI,44.982498,-0.134722,157,1.0,E,Europe/Paris,airport,OurAirports
+1298,Pamiers-Les Pujols Airport,Pamiers,France,,LFDJ,43.090599060058594,1.69582998752594,1115,1.0,E,Europe/Paris,airport,OurAirports
+1299,Marmande-Virazeil Airport,Marmande,France,,LFDM,44.4989013671875,0.2005140036344528,105,1.0,E,Europe/Paris,airport,OurAirports
+1300,Rochefort-Saint-Agnant (BA 721) Airport,Rochefort,France,RCO,LFDN,45.88779830932617,-0.9830560088157654,60,1.0,E,Europe/Paris,airport,OurAirports
+1301,Pontivy Airport,Pontivy,France,,LFED,48.05849838256836,-2.92182993888855,407,1.0,E,Europe/Paris,airport,OurAirports
+1302,Aubigny-sur-Nère Airport,Aubigny-sur-nere,France,,LFEH,47.480556,2.394167,630,1.0,E,Europe/Paris,airport,OurAirports
+1303,Guiscriff Scaer Airport,Guiscriff-scaer,France,,LFES,48.0525016784668,-3.664720058441162,574,1.0,E,Europe/Paris,airport,OurAirports
+1305,Ancenis Airport,Ancenis,France,,LFFI,47.40810012817383,-1.1775000095367432,111,1.0,E,Europe/Paris,airport,OurAirports
+1306,Brienne-le-Château Airport,Brienne-le Chateau,France,,LFFN,48.4297981262207,4.48222017288208,381,1.0,E,Europe/Paris,airport,OurAirports
+1307,Colmar-Houssen Airport,Colmar,France,CMR,LFGA,48.109901428222656,7.359010219573975,628,1.0,E,Europe/Paris,airport,OurAirports
+1308,Beaune-Challanges Airport,Beaune,France,,LFGF,47.005901,4.89342,656,1.0,E,Europe/Paris,airport,OurAirports
+1309,Dole-Tavaux Airport,Dole,France,DLE,LFGJ,47.042686,5.435063,645,1.0,E,Europe/Paris,airport,OurAirports
+1310,Joigny Airport,Joigny,France,,LFGK,47.9921989440918,3.392220020294189,732,1.0,E,Europe/Paris,airport,OurAirports
+1311,Verdun-Le Rozelier Airfield,Verdun,France,,LFGW,49.122398,5.46905,1230,1.0,E,Europe/Paris,airport,OurAirports
+1312,Aubenas-Ardèche Méridional Airport,Aubenas-vals-lanas,France,OBS,LFHO,44.544203,4.372192,923,1.0,E,Europe/Paris,airport,OurAirports
+1313,Le Puy-Loudes Airport,Le Puy,France,LPY,LFHP,45.0806999206543,3.762890100479126,2731,1.0,E,Europe/Paris,airport,OurAirports
+1314,Saint-Flour-Coltines Airport,St.-flour,France,,LFHQ,45.07640075683594,2.99360990524292,3218,1.0,E,Europe/Paris,airport,OurAirports
+1315,Bourg-Ceyzériat Airport,Bourg,France,,LFHS,46.20090103149414,5.292029857635498,857,1.0,E,Europe/Paris,airport,OurAirports
+1316,Villefranche-Tarare Airport,Vilefrance,France,,LFHV,45.919983,4.634931,1076,1.0,E,Europe/Paris,airport,OurAirports
+1317,Moulins-Montbeugny Airport,Moulins,France,,LFHY,46.53459930419922,3.423719882965088,915,1.0,E,Europe/Paris,airport,OurAirports
+1318,Saint-Affrique-Belmont Airport,St.-afrique-belmont,France,,LFIF,43.82329940795898,2.7452800273895264,1686,1.0,E,Europe/Paris,airport,OurAirports
+1319,Cassagnes-Bégonhès Airport,Cassagnes-beghones,France,,LFIG,44.17779922485352,2.515000104904175,2024,1.0,E,Europe/Paris,airport,OurAirports
+1320,Metz-Nancy-Lorraine Airport,Metz,France,ETZ,LFJL,48.9821014404,6.25131988525,870,1.0,E,Europe/Paris,airport,OurAirports
+1321,Bastia-Poretta Airport,Bastia,France,BIA,LFKB,42.55270004272461,9.48373031616211,26,1.0,E,Europe/Paris,airport,OurAirports
+1322,Calvi-Sainte-Catherine Airport,Calvi,France,CLY,LFKC,42.5244444,8.7930556,209,1.0,E,Europe/Paris,airport,OurAirports
+1323,Figari Sud-Corse Airport,Figari,France,FSC,LFKF,41.5005989074707,9.097780227661133,87,1.0,E,Europe/Paris,airport,OurAirports
+1324,Ajaccio-Napoléon Bonaparte Airport,Ajaccio,France,AJA,LFKJ,41.92359924316406,8.8029203414917,18,1.0,E,Europe/Paris,airport,OurAirports
+1325,Propriano Airport,Propriano,France,PRP,LFKO,41.66059875488281,8.889749526977539,13,1.0,E,Europe/Paris,airport,OurAirports
+1326,Solenzara (BA 126) Air Base,Solenzara,France,SOZ,LFKS,41.92440032958984,9.406000137329102,28,1.0,E,Europe/Paris,airport,OurAirports
+1327,Corte Airport,Corte,France,,LFKT,42.29359817504883,9.193059921264648,1132,1.0,E,Europe/Paris,airport,OurAirports
+1328,Auxerre-Branches Airport,Auxerre,France,AUF,LFLA,47.85020065307617,3.497109889984131,523,1.0,E,Europe/Paris,airport,OurAirports
+1329,Chambéry-Savoie Airport,Chambery,France,CMF,LFLB,45.63809967041016,5.880229949951172,779,1.0,E,Europe/Paris,airport,OurAirports
+1330,Clermont-Ferrand Auvergne Airport,Clermont-Ferrand,France,CFE,LFLC,45.7867012024,3.1691699028,1090,1.0,E,Europe/Paris,airport,OurAirports
+1331,Bourges Airport,Bourges,France,BOU,LFLD,47.058101654052734,2.3702800273895264,529,1.0,E,Europe/Paris,airport,OurAirports
+1332,Chambéry-Challes-les-Eaux Airport,Chambery,France,,LFLE,45.5611000061,5.975759983060001,973,1.0,E,Europe/Paris,airport,OurAirports
+1333,Chalon-Champforgeuil Airport,Chalon,France,,LFLH,46.82609939575195,4.817629814147949,623,1.0,E,Europe/Paris,airport,OurAirports
+1334,Annemasse Airport,Annemasse,France,QNJ,LFLI,46.1920013428,6.268390178680001,1620,1.0,E,Europe/Paris,airport,OurAirports
+1335,Lyon Saint-Exupéry Airport,Lyon,France,LYS,LFLL,45.725556,5.081111,821,1.0,E,Europe/Paris,airport,OurAirports
+1336,Mâcon-Charnay Airport,Macon,France,,LFLM,46.295101,4.79577,728,1.0,E,Europe/Paris,airport,OurAirports
+1337,Saint-Yan Airport,St.-yan,France,SYT,LFLN,46.41249847412109,4.0132598876953125,796,1.0,E,Europe/Paris,airport,OurAirports
+1338,Roanne-Renaison Airport,Roanne,France,RNE,LFLO,46.05830001831055,4.001389980316162,1106,1.0,E,Europe/Paris,airport,OurAirports
+1339,Annecy-Haute-Savoie-Mont Blanc Airport,Annecy,France,NCY,LFLP,45.9308333,6.1063889,1521,1.0,E,Europe/Paris,airport,OurAirports
+1340,Grenoble-Isère Airport,Grenoble,France,GNB,LFLS,45.36289978027344,5.329370021820068,1302,1.0,E,Europe/Paris,airport,OurAirports
+1341,Montluçon-Domérat Airport,Montlucon,France,,LFLT,46.352501,2.57049,771,1.0,E,Europe/Paris,airport,OurAirports
+1342,Valence-Chabeuil Airport,Valence,France,VAF,LFLU,44.9216,4.9699,525,1.0,E,Europe/Paris,airport,OurAirports
+1343,Vichy-Charmeil Airport,Vichy,France,VHY,LFLV,46.169700622558594,3.4037399291992188,817,1.0,E,Europe/Paris,airport,OurAirports
+1344,Aurillac Airport,Aurillac,France,AUR,LFLW,44.89139938354492,2.4219400882720947,2096,1.0,E,Europe/Paris,airport,OurAirports
+1345,"Châteauroux-Déols ""Marcel Dassault"" Airport",Chateauroux,France,CHR,LFLX,46.860278,1.721111,529,1.0,E,Europe/Paris,airport,OurAirports
+1346,Lyon-Bron Airport,Lyon,France,LYN,LFLY,45.72719955444336,4.944270133972168,659,1.0,E,Europe/Paris,airport,OurAirports
+1347,Aix-en-Provence (BA 114) Airport,Aix-les-milles,France,,LFMA,43.5056,5.36778,367,1.0,E,Europe/Paris,airport,OurAirports
+1348,Le Luc-Le Cannet Airport,Le Luc,France,,LFMC,43.38470077514648,6.387139797210693,265,1.0,E,Europe/Paris,airport,OurAirports
+1349,Cannes-Mandelieu Airport,Cannes,France,CEQ,LFMD,43.542,6.95348,13,1.0,E,Europe/Paris,airport,OurAirports
+1350,Saint-Étienne-Bouthéon Airport,St-Etienne,France,EBU,LFMH,45.54059982299805,4.296390056610107,1325,1.0,E,Europe/Paris,airport,OurAirports
+1351,Istres Le Tubé/Istres Air Base (BA 125) Airport,Istres,France,,LFMI,43.522701,4.92384,82,1.0,E,Europe/Paris,airport,OurAirports
+1352,Carcassonne Airport,Carcassonne,France,CCF,LFMK,43.21599960327149,2.3063199520111084,433,1.0,E,Europe/Paris,airport,OurAirports
+1353,Marseille Provence Airport,Marseille,France,MRS,LFML,43.439271922,5.22142410278,74,1.0,E,Europe/Paris,airport,OurAirports
+1354,Nice-Côte d'Azur Airport,Nice,France,NCE,LFMN,43.6584014893,7.215869903560001,12,1.0,E,Europe/Paris,airport,OurAirports
+1355,Orange-Caritat (BA 115) Air Base,Orange,France,XOG,LFMO,44.14049911499024,4.866720199584961,197,1.0,E,Europe/Paris,airport,OurAirports
+1356,Perpignan-Rivesaltes (Llabanère) Airport,Perpignan,France,PGF,LFMP,42.74039840698242,2.8706700801849365,144,1.0,E,Europe/Paris,airport,OurAirports
+1357,Le Castellet Airport,Le Castellet,France,CTT,LFMQ,43.25249862670898,5.785190105438232,1391,1.0,E,Europe/Paris,airport,OurAirports
+1358,Alès-Deaux Airport,Ales,France,,LFMS,44.069698,4.14212,668,1.0,E,Europe/Paris,airport,OurAirports
+1359,Montpellier-Méditerranée Airport,Montpellier,France,MPL,LFMT,43.57619857788086,3.96301007270813,17,1.0,E,Europe/Paris,airport,OurAirports
+1360,Béziers-Vias Airport,Beziers,France,BZR,LFMU,43.32350158691406,3.353899955749512,56,1.0,E,Europe/Paris,airport,OurAirports
+1361,Avignon-Caumont Airport,Avignon,France,AVN,LFMV,43.90729904174805,4.901830196380615,124,1.0,E,Europe/Paris,airport,OurAirports
+1362,Salon-de-Provence (BA 701) Air Base,Salon,France,,LFMY,43.60639953613281,5.109250068664551,195,1.0,E,Europe/Paris,airport,OurAirports
+1363,Lézignan-Corbières Airfield,Lezignan-corbieres,France,,LFMZ,43.1758,2.73417,207,1.0,E,Europe/Paris,airport,OurAirports
+1364,Mende-Brenoux Airfield,Mende,France,MEN,LFNB,44.502102,3.53282,3362,1.0,E,Europe/Paris,airport,OurAirports
+1365,Carpentras Airport,Carpentras,France,,LFNH,44.02980041503906,5.078060150146484,394,1.0,E,Europe/Paris,airport,OurAirports
+1366,Avord (BA 702) Air Base,Avord,France,,LFOA,47.053299,2.6325,580,1.0,E,Europe/Paris,airport,OurAirports
+1367,Paris Beauvais Tillé Airport,Beauvais,France,BVA,LFOB,49.45439910888672,2.1127800941467285,359,1.0,E,Europe/Paris,airport,OurAirports
+1368,Châteaudun (BA 279) Air Base,Chateaudun,France,,LFOC,48.058102,1.37662,433,1.0,E,Europe/Paris,airport,OurAirports
+1369,Saumur-Saint-Florent Airport,Saumur,France,,LFOD,47.256802,-0.115142,269,1.0,E,Europe/Paris,airport,OurAirports
+1370,Évreux-Fauville (BA 105) Air Base,Evreux,France,EVX,LFOE,49.02870178222656,1.219859957695007,464,1.0,E,Europe/Paris,airport,OurAirports
+1371,Le Havre Octeville Airport,Le Havre,France,LEH,LFOH,49.53390121459961,0.0880559980869293,313,1.0,E,Europe/Paris,airport,OurAirports
+1372,Abbeville,Abbeville,France,XAB,LFOI,50.143501,1.831891,220,1.0,E,Europe/Paris,airport,OurAirports
+1373,Orléans-Bricy (BA 123) Air Base,Orleans,France,ORE,LFOJ,47.9878005981,1.7605600357100002,412,1.0,E,Europe/Paris,airport,OurAirports
+1374,Châlons-Vatry Airport,Chalons,France,XCR,LFOK,48.7733333333,4.206111111,587,1.0,E,Europe/Paris,airport,OurAirports
+1375,Rouen Airport,Rouen,France,URO,LFOP,49.38420104980469,1.1748000383377075,512,1.0,E,Europe/Paris,airport,OurAirports
+1376,Tours-Val-de-Loire Airport,Tours,France,TUF,LFOT,47.4322013855,0.727605998516,357,1.0,E,Europe/Paris,airport,OurAirports
+1377,Cholet Le Pontreau Airport,Cholet,France,CET,LFOU,47.08209991455078,-0.8770639896392822,443,1.0,E,Europe/Paris,airport,OurAirports
+1378,Laval-Entrammes Airport,Laval,France,LVA,LFOV,48.03139877319336,-0.7429860234260559,330,1.0,E,Europe/Paris,airport,OurAirports
+1379,Orléans-Saint-Denis-de-l'Hôtel Airport,Orleans,France,,LFOZ,47.8969,2.16333,396,1.0,E,Europe/Paris,airport,OurAirports
+1380,Paris-Le Bourget Airport,Paris,France,LBG,LFPB,48.96939849853516,2.441390037536621,218,1.0,E,Europe/Paris,airport,OurAirports
+1381,Creil Air Base,Creil,France,CSF,LFPC,49.25350189208984,2.5191400051116943,291,1.0,E,Europe/Paris,airport,OurAirports
+1382,Charles de Gaulle International Airport,Paris,France,CDG,LFPG,49.012798,2.55,392,1.0,E,Europe/Paris,airport,OurAirports
+1383,Coulommiers-Voisins Airport,Coulommiers,France,,LFPK,48.83769989013672,3.016119956970215,470,1.0,E,Europe/Paris,airport,OurAirports
+1384,Melun-Villaroche Air Base,Melun,France,,LFPM,48.60469818115234,2.6711199283599854,302,1.0,E,Europe/Paris,airport,OurAirports
+1385,Toussus-le-Noble Airport,Toussous-le-noble,France,TNF,LFPN,48.75189971923828,2.1061899662017822,538,1.0,E,Europe/Paris,airport,OurAirports
+1386,Paris-Orly Airport,Paris,France,ORY,LFPO,48.7233333,2.3794444,291,1.0,E,Europe/Paris,airport,OurAirports
+1387,Pontoise - Cormeilles-en-Vexin Airport,Pontoise,France,POX,LFPT,49.096667,2.040833,325,1.0,E,Europe/Paris,airport,OurAirports
+1388,Villacoublay-Vélizy (BA 107) Air Base,Villacoublay,France,VIY,LFPV,48.7741667,2.1916667,584,1.0,E,Europe/Paris,airport,OurAirports
+1389,Reims-Prunay Airport,Reims,France,,LFQA,49.20869827270508,4.156579971313477,313,1.0,E,Europe/Paris,airport,OurAirports
+1390,Troyes-Barberey Airport,Troyes,France,,LFQB,48.322102,4.0167,388,1.0,E,Europe/Paris,airport,OurAirports
+1391,Lunéville-Croismare Airport,Luneville,France,,LFQC,48.593299865722656,6.543459892272949,790,1.0,E,Europe/Paris,airport,OurAirports
+1392,Étain-Rouvres Air Base,Etain,France,,LFQE,49.226898193359375,5.672220230102539,770,1.0,E,Europe/Paris,airport,OurAirports
+1393,Autun-Bellevue Airport,Autun,France,,LFQF,46.96730041503906,4.260570049285889,997,1.0,E,Europe/Paris,airport,OurAirports
+1394,Nevers-Fourchambault Airport,Nevers,France,NVS,LFQG,47.00260162353516,3.1133298873901367,602,1.0,E,Europe/Paris,airport,OurAirports
+1395,Cambrai-Épinoy (BA 103) Air Base,Cambrai,France,,LFQI,50.221802,3.15424,257,1.0,E,Europe/Paris,airport,OurAirports
+1396,Maubeuge-Élesmes Airport,Maubeuge,France,XME,LFQJ,50.31050109863281,4.033120155334473,452,1.0,E,Europe/Paris,airport,OurAirports
+1397,Besançon-La Vèze Airport,Besancon-la-veze,France,,LFQM,47.2066,6.083681,1271,1.0,E,Europe/Paris,airport,OurAirports
+1398,Phalsbourg-Bourscheid Air Base,Phalsbourg,France,,LFQP,48.7680556,7.205,1017,1.0,E,Europe/Paris,airport,OurAirports
+1399,Lille-Lesquin Airport,Lille,France,LIL,LFQQ,50.563332,3.086886,157,1.0,E,Europe/Paris,airport,OurAirports
+1400,Merville-Calonne Airport,Merville,France,HZB,LFQT,50.61840057373047,2.642240047454834,61,1.0,E,Europe/Paris,airport,OurAirports
+1401,Charleville-Mézières Airport,Charleville,France,XCZ,LFQV,49.78390121459961,4.647079944610596,492,1.0,E,Europe/Paris,airport,OurAirports
+1402,Vesoul-Frotey Airport,Vesoul-frotey,France,,LFQW,47.6376,6.20392,1249,1.0,E,Europe/Paris,airport,OurAirports
+1403,Brest Bretagne Airport,Brest,France,BES,LFRB,48.447898864746094,-4.418540000915527,325,1.0,E,Europe/Paris,airport,OurAirports
+1404,Cherbourg-Maupertus Airport,Cherbourg,France,CER,LFRC,49.65010070800781,-1.4702800512313845,459,1.0,E,Europe/Paris,airport,OurAirports
+1405,Dinard-Pleurtuit-Saint-Malo Airport,Dinard,France,DNR,LFRD,48.58769989013672,-2.0799601078033447,219,1.0,E,Europe/Paris,airport,OurAirports
+1406,La Baule-Escoublac Airport,La Baule,France,LBY,LFRE,47.289398193359375,-2.346390008926392,105,1.0,E,Europe/Paris,airport,OurAirports
+1407,Granville Airport,Granville,France,GFR,LFRF,48.88309860229492,-1.564170002937317,45,1.0,E,Europe/Paris,airport,OurAirports
+1408,Deauville-Saint-Gatien Airport,Deauville,France,DOL,LFRG,49.3652992249,0.154305994511,479,1.0,E,Europe/Paris,airport,OurAirports
+1409,Lorient South Brittany (Bretagne Sud) Airport,Lorient,France,LRT,LFRH,47.76060104370117,-3.440000057220459,160,1.0,E,Europe/Paris,airport,OurAirports
+1410,La Roche-sur-Yon Airport,La Roche-sur-yon,France,EDM,LFRI,46.70190048217773,-1.3786300420761108,299,1.0,E,Europe/Paris,airport,OurAirports
+1411,Landivisiau Air Base,Landivisiau,France,LDV,LFRJ,48.53030014038086,-4.151639938354492,348,1.0,E,Europe/Paris,airport,OurAirports
+1412,Caen-Carpiquet Airport,Caen,France,CFR,LFRK,49.173301696777344,-0.449999988079071,256,1.0,E,Europe/Paris,airport,OurAirports
+1413,Lanvéoc-Poulmic Air Base,Lanvedoc,France,,LFRL,48.281700134277344,-4.4450201988220215,287,1.0,E,Europe/Paris,airport,OurAirports
+1414,Le Mans-Arnage Airport,Le Mans,France,LME,LFRM,47.94860076904297,0.2016669958829879,194,1.0,E,Europe/Paris,airport,OurAirports
+1415,Rennes-Saint-Jacques Airport,Rennes,France,RNS,LFRN,48.0694999695,-1.73478996754,124,1.0,E,Europe/Paris,airport,OurAirports
+1416,Lannion-Côte de Granit Airport,Lannion,France,LAI,LFRO,48.754398,-3.47166,290,1.0,E,Europe/Paris,airport,OurAirports
+1417,Quimper-Cornouaille Airport,Quimper,France,UIP,LFRQ,47.97499847412109,-4.167789936065674,297,1.0,E,Europe/Paris,airport,OurAirports
+1418,Nantes Atlantique Airport,Nantes,France,NTE,LFRS,47.153198242200006,-1.61073005199,90,1.0,E,Europe/Paris,airport,OurAirports
+1419,Saint-Brieuc-Armor Airport,St.-brieuc Armor,France,SBK,LFRT,48.5378,-2.85444,453,1.0,E,Europe/Paris,airport,OurAirports
+1420,Morlaix-Ploujean Airport,Morlaix,France,MXN,LFRU,48.6031990051,-3.81577992439,272,1.0,E,Europe/Paris,airport,OurAirports
+1421,Vannes-Meucon Airport,Vannes,France,VNE,LFRV,47.72330093383789,-2.718559980392456,446,1.0,E,Europe/Paris,airport,OurAirports
+1422,Saint-Nazaire-Montoir Airport,St.-nazaire,France,SNR,LFRZ,47.3105556,-2.1566667,13,1.0,E,Europe/Paris,airport,OurAirports
+1423,EuroAirport Basel-Mulhouse-Freiburg Airport,Mulhouse,France,BSL,LFSB,47.59,7.5291667,885,1.0,E,Europe/Paris,airport,OurAirports
+1424,Colmar-Meyenheim Air Base,Colmar,France,,LFSC,47.922000885,7.39967012405,693,1.0,E,Europe/Paris,airport,OurAirports
+1425,Dijon-Bourgogne Airport,Dijon,France,DIJ,LFSD,47.268902,5.09,726,1.0,E,Europe/Paris,airport,OurAirports
+1426,Metz-Frescaty (BA 128) Air Base,Metz,France,MZM,LFSF,49.07170104980469,6.131669998168945,629,1.0,E,Europe/Paris,airport,OurAirports
+1427,Épinal-Mirecourt Airport,Epinal,France,EPL,LFSG,48.325001,6.06998,1084,1.0,E,Europe/Paris,airport,OurAirports
+1428,Haguenau Airport,Haguenau,France,,LFSH,48.7943000793,7.81760978699,491,1.0,E,Europe/Paris,airport,OurAirports
+1429,Saint-Dizier-Robinson (BA 113) Air Base,St.-dizier,France,,LFSI,48.63600158691406,4.899419784545898,458,1.0,E,Europe/Paris,airport,OurAirports
+1430,Montbéliard-Courcelles Airfield,Montbeliard,France,,LFSM,47.487,6.79054,1041,1.0,E,Europe/Paris,airport,OurAirports
+1431,Nancy-Essey Airport,Nancy,France,ENC,LFSN,48.69210052490234,6.230460166931152,751,1.0,E,Europe/Paris,airport,OurAirports
+1432,Nancy-Ochey (BA 133) Air Base,Nancy,France,,LFSO,48.583099365234375,5.954999923706055,1106,1.0,E,Europe/Paris,airport,OurAirports
+1433,Pontarlier Airport,Pontarlier,France,,LFSP,46.90399932861328,6.3273701667785645,2683,1.0,E,Europe/Paris,airport,OurAirports
+1434,Reims-Champagne (BA 112) Air Base,Reims,France,RHE,LFSR,49.310001,4.05,312,1.0,E,Europe/Paris,airport,OurAirports
+1435,Strasbourg Airport,Strasbourg,France,SXB,LFST,48.53829956054688,7.628230094909668,505,1.0,E,Europe/Paris,airport,OurAirports
+1436,Luxeuil-Saint-Sauveur (BA 116) Air Base,Luxeuil,France,,LFSX,47.7830556,6.36416667,913,1.0,E,Europe/Paris,airport,OurAirports
+1437,Cuers-Pierrefeu Airport,Cuers,France,,LFTF,43.24779891967773,6.126699924468994,266,1.0,E,Europe/Paris,airport,OurAirports
+1438,Toulon-Hyères Airport,Hyeres,France,TLN,LFTH,43.0973014832,6.14602994919,7,1.0,E,Europe/Paris,airport,OurAirports
+1439,Nîmes-Arles-Camargue Airport,Nimes,France,FNI,LFTW,43.75740051269531,4.4163498878479,309,1.0,E,Europe/Paris,airport,OurAirports
+1442,Ambérieu Air Base (BA 278),Amberieu,France,,LFXA,45.987301,5.32844,823,1.0,E,Europe/Paris,airport,OurAirports
+1443,Damblain Airport,Damblain,France,,LFYD,48.08629989624024,5.664060115814209,1280,1.0,E,Europe/Paris,airport,OurAirports
+1616,Alverca Air Base,Alverca,Portugal,AVR,LPAR,38.883301,-9.0301,11,0.0,E,Europe/Lisbon,airport,OurAirports
+1617,Santa Maria Airport,Santa Maria (island),Portugal,SMA,LPAZ,36.97140121459961,-25.17060089111328,308,-1.0,E,Atlantic/Azores,airport,OurAirports
+1618,Bragança Airport,Braganca,Portugal,BGC,LPBG,41.8578,-6.70713,2241,0.0,E,Europe/Lisbon,airport,OurAirports
+1619,Beja Airport / Airbase,Beja (madeira),Portugal,BYJ,LPBJ,38.078899,-7.9324,636,0.0,E,Europe/Lisbon,airport,OurAirports
+1620,Braga Municipal Aerodrome,Braga,Portugal,BGZ,LPBR,41.5871009827,-8.445139884949999,247,0.0,E,Europe/Lisbon,airport,OurAirports
+1621,Aerodromo Municipal de Coimbra,Coimba,Portugal,,LPCO,40.158758,-8.470815,587,0.0,E,Europe/Lisbon,airport,OurAirports
+1622,Cascais Airport,Cascais,Portugal,CAT,LPCS,38.724998,-9.35523,325,0.0,E,Europe/Lisbon,airport,OurAirports
+1623,Coimbra Hospital Covões Heliport,Covilha,Portugal,,LPCV,40.194812,-8.460207,265,0.0,E,Europe/Lisbon,airport,OurAirports
+1624,Évora Airport,Evora,Portugal,,LPEV,38.533501,-7.88964,807,0.0,E,Europe/Lisbon,airport,OurAirports
+1625,Flores Airport,Flores,Portugal,FLW,LPFL,39.455299377441406,-31.13139915466309,112,-1.0,E,Atlantic/Azores,airport,OurAirports
+1626,Faro Airport,Faro,Portugal,FAO,LPFR,37.0144004822,-7.96590995789,24,0.0,E,Europe/Lisbon,airport,OurAirports
+1627,Graciosa Airport,Graciosa Island,Portugal,GRW,LPGR,39.09220123291016,-28.029800415039062,86,-1.0,E,Atlantic/Azores,airport,OurAirports
+1628,Horta Airport,Horta,Portugal,HOR,LPHR,38.519901275634766,-28.71590042114257,118,-1.0,E,Atlantic/Azores,airport,OurAirports
+1629,Lajes Airport,Lajes (terceira Island),Portugal,TER,LPLA,38.761799,-27.090799,180,-1.0,E,Atlantic/Azores,airport,OurAirports
+1630,Monte Real Air Base,Monte Real,Portugal,QLR,LPMR,39.828335,-8.8875,187,0.0,E,Europe/Lisbon,airport,OurAirports
+1631,Montijo Air Base,Montijo,Portugal,,LPMT,38.703899,-9.03592,46,0.0,E,Europe/Lisbon,airport,OurAirports
+1632,Ovar Air Base,Ovar,Portugal,,LPOV,40.915901,-8.64592,56,0.0,E,Europe/Lisbon,airport,OurAirports
+1633,João Paulo II Airport,Ponta Delgada,Portugal,PDL,LPPD,37.7411994934,-25.6979007721,259,-1.0,E,Atlantic/Azores,airport,OurAirports
+1634,Pico Airport,Pico,Portugal,PIX,LPPI,38.554298,-28.441299,109,-1.0,E,Atlantic/Azores,airport,OurAirports
+1635,Portimão Airport,Portimao,Portugal,PRM,LPPM,37.1493,-8.58396,5,0.0,E,Europe/Lisbon,airport,OurAirports
+1636,Francisco de Sá Carneiro Airport,Porto,Portugal,OPO,LPPR,41.2481002808,-8.68138980865,228,0.0,E,Europe/Lisbon,airport,OurAirports
+1637,Porto Santo Airport,Porto Santo,Portugal,PXO,LPPS,33.0733985901,-16.3500003815,341,0.0,E,Europe/Lisbon,airport,OurAirports
+1638,Humberto Delgado Airport (Lisbon Portela Airport),Lisbon,Portugal,LIS,LPPT,38.7813,-9.13592,374,0.0,E,Europe/Lisbon,airport,OurAirports
+1639,São Jorge Airport,Sao Jorge Island,Portugal,SJZ,LPSJ,38.66550064086914,-28.175800323486328,311,-1.0,E,Atlantic/Azores,airport,OurAirports
+1640,Sintra Air Base,Sintra,Portugal,,LPST,38.8311,-9.33955,440,0.0,E,Europe/Lisbon,airport,OurAirports
+1641,Tancos Airbase,Tancos,Portugal,,LPTN,39.475101,-8.36458,266,0.0,E,Europe/Lisbon,airport,OurAirports
+1642,Vila Real Airport,Vila Real,Portugal,VRL,LPVR,41.2743,-7.72047,1805,0.0,E,Europe/Lisbon,airport,OurAirports
+1643,Aerodromo Goncalves Lobato (Viseu Airport),Viseu,Portugal,VSE,LPVZ,40.725498,-7.88899,2060,0.0,E,Europe/Lisbon,airport,OurAirports
+3986,Memmingen Allgau Airport,Memmingen,Germany,FMM,EDJA,47.9888000488,10.2395000458,2077,1.0,E,Europe/Berlin,airport,OurAirports
+3998,Palma De Mallorca Airport,Palma de Mallorca,Spain,PMI,LEPA,39.551700592,2.73881006241,27,1.0,E,Europe/Madrid,airport,OurAirports
+4091,Madeira Airport,Funchal,Portugal,FNC,LPMA,32.697899,-16.7745,192,0.0,E,Europe/Lisbon,airport,OurAirports
+4165,Aachen-Merzbrück Airport,Aachen,Germany,AAH,EDKA,50.823055267333984,6.186388969421387,623,1.0,E,Europe/Berlin,airport,OurAirports
+4166,Karlsruhe Baden-Baden Airport,Karlsruhe/Baden-Baden,Germany,FKB,EDSB,48.7793998718,8.08049964905,408,1.0,E,Europe/Berlin,airport,OurAirports
+4198,Weeze Airport,Weeze,Germany,NRN,EDLV,51.6024017334,6.14216995239,106,1.0,E,Europe/Berlin,airport,OurAirports
+4207,Norden-Norddeich Airport,Norden,Germany,NOD,EDWS,53.6330566406,7.19027805328,3,1.0,E,Europe/Berlin,airport,OurAirports
+4208,Juist Airport,Juist,Germany,JUI,EDWJ,53.68111038208008,7.055832862854004,7,1.0,E,Europe/Berlin,airport,OurAirports
+4303,Enghien Moisselles Airfield,Enghien-moisselles,France,,LFFE,49.046398,2.35306,335,1.0,E,Europe/Paris,airport,OurAirports
+4347,St. Mary's Airport,ST MARY\'S,United Kingdom,ISC,EGHE,49.91329956054688,-6.291669845581055,116,0.0,E,Europe/London,airport,OurAirports
+5557,Heringsdorf Airport,Heringsdorf,Germany,HDF,EDAH,53.8787002563,14.152299881,93,1.0,E,Europe/Berlin,airport,OurAirports
+5558,Heide-Büsum Airport,Büsum,Germany,HEI,EDXB,54.1533317566,8.90166664124,7,1.0,E,Europe/Berlin,airport,OurAirports
+5559,Helgoland-Düne Airport,Helgoland,Germany,HGL,EDXH,54.1852798462,7.91583299637,8,1.0,E,Europe/Berlin,airport,OurAirports
+5561,Nottingham Airport,Nottingham,United Kingdom,NQT,EGBN,52.91999816894531,-1.079169988632202,138,0.0,E,Europe/London,airport,OurAirports
+5562,Robin Hood Doncaster Sheffield Airport,"Doncaster, Sheffield",United Kingdom,DSA,EGCN,53.4805378105,-1.01065635681,55,0.0,E,Europe/London,airport,OurAirports
+5563,Campbeltown Airport,Campbeltown,United Kingdom,CAL,EGEC,55.437198638916016,-5.686389923095703,42,0.0,E,Europe/London,airport,OurAirports
+5564,Eday Airport,Eday,United Kingdom,EOI,EGED,59.19060134887695,-2.7722198963165283,10,0.0,E,Europe/London,airport,OurAirports
+5565,Fair Isle Airport,Fair Isle,United Kingdom,FIE,EGEF,59.53580093383789,-1.628059983253479,223,0.0,E,Europe/London,airport,OurAirports
+5566,North Ronaldsay Airport,North Ronaldsay,United Kingdom,NRL,EGEN,59.3675003052,-2.43443989754,40,0.0,E,Europe/London,airport,OurAirports
+5567,Papa Westray Airport,Papa Westray,United Kingdom,PPW,EGEP,59.351699829100006,-2.9002799987800003,91,0.0,E,Europe/London,airport,OurAirports
+5568,Stronsay Airport,Stronsay,United Kingdom,SOY,EGER,59.1553001404,-2.64139008522,39,0.0,E,Europe/London,airport,OurAirports
+5569,Sanday Airport,Sanday,United Kingdom,NDY,EGES,59.250301361083984,-2.576669931411743,68,0.0,E,Europe/London,airport,OurAirports
+5570,Lerwick / Tingwall Airport,Lerwick,United Kingdom,LWK,EGET,60.192199707,-1.24361002445,43,0.0,E,Europe/London,airport,OurAirports
+5571,Westray Airport,Westray,United Kingdom,WRY,EGEW,59.3502998352,-2.95000004768,29,0.0,E,Europe/London,airport,OurAirports
+5572,Land's End Airport,Land's End,United Kingdom,LEQ,EGHC,50.102798,-5.67056,398,0.0,E,Europe/London,airport,OurAirports
+5573,Penzance Heliport,Penzance,United Kingdom,PZE,EGHK,50.128101,-5.51845,14,0.0,E,Europe/London,airport,OurAirports
+5574,Anglesey Airport,Angelsey,United Kingdom,VLY,EGOV,53.2481002808,-4.53533983231,37,0.0,E,Europe/London,airport,OurAirports
+5575,Barra Airport,Barra,United Kingdom,BRR,EGPR,57.0228,-7.44306,5,0.0,E,Europe/London,airport,OurAirports
+5577,Donegal Airport,Dongloe,Ireland,CFN,EIDL,55.0442008972168,-8.340999603271484,30,0.0,E,Europe/Dublin,airport,OurAirports
+5578,Weston Airport,Leixlip,Ireland,,EIWT,53.3521995544,-6.48611021042,150,0.0,E,Europe/Dublin,airport,OurAirports
+5657,Outer Skerries Airport,Outer Skerries,United Kingdom,OUK,EGOU,60.4252,-0.75,76,0.0,E,Europe/London,airport,OurAirports
+5659,La Gomera Airport,La Gomera,Spain,GMZ,GCGM,28.029600143432617,-17.214599609375,716,0.0,E,Atlantic/Canary,airport,OurAirports
+5781,Logroño-Agoncillo Airport,Logroño-Agoncillo,Spain,RJL,LELO,42.4609534888,-2.32223510742,1161,1.0,E,Europe/Madrid,airport,OurAirports
+5782,Île d'Yeu Airport,Île d'Yeu,France,IDY,LFEY,46.71860122680664,-2.3911099433898926,79,1.0,E,Europe/Paris,airport,OurAirports
+5783,Angers-Loire Airport,Angers/Marcé,France,ANE,LFJR,47.560299,-0.312222,194,1.0,E,Europe/Paris,airport,OurAirports
+5786,La Môle Airport,La Môle,France,LTT,LFTZ,43.205399,6.482,59,1.0,E,Europe/Paris,airport,OurAirports
+5793,Corvo Airport,Corvo,Portugal,CVU,LPCR,39.671501,-31.1136,0,-1.0,E,Atlantic/Azores,airport,OurAirports
+6421,Inishmore Aerodrome,Inis Mor,Ireland,IOR,EIIM,53.1067008972168,-9.653610229492188,24,0.0,U,Europe/Dublin,airport,OurAirports
+6422,Connemara Regional Airport,Indreabhan,Ireland,NNR,EICA,53.23030090332031,-9.467780113220217,70,0.0,U,Europe/Dublin,airport,OurAirports
+6423,Rügen Airport,Ruegen,Germany,GTI,EDCG,54.3833312988,13.3255558014,69,1.0,U,Europe/Berlin,airport,OurAirports
+6450,Tannheim Airfield,Tannheim,Germany,,EDMT,48.009998,10.098611,1903,1.0,E,Europe/Berlin,airport,OurAirports
+6454,Unst Airport,Unst,United Kingdom,UNT,EGPW,60.74720001220703,-0.8538500070571899,0,0.0,E,Europe/London,airport,OurAirports
+6460,Gustaf III Airport,Gustavia,France,SBH,TFFJ,17.904399871826172,-62.84360122680664,49,-4.0,E,,airport,OurAirports
+6467,Oban Airport,North Connel,United Kingdom,OBN,EGEO,56.4635009765625,-5.399670124053955,20,0.0,E,Europe/London,airport,OurAirports
+6479,Courchevel Airport,Courcheval,France,CVF,LFLJ,45.39670181274414,6.6347198486328125,6588,1.0,E,Europe/Paris,airport,OurAirports
+6483,Isle of Wight / Sandown Airport,Isle Of Wight,United Kingdom,,EGHN,50.653099,-1.18221998,55,0.0,E,Europe/London,airport,OurAirports
+6487,Andernos Les Bains Airport,Andernos-Les-Bains,France,,LFCD,44.7561,-1.06333,66,1.0,E,Europe/Paris,airport,OurAirports
+6489,Bienenfarm Airport,Nauen,Germany,,EDOI,52.661667,12.745833,120,1.0,E,Europe/Berlin,airport,OurAirports
+6493,La Rochelle-Île de Ré Airport,La Rochelle,France,LRH,LFBH,46.17919921875,-1.1952799558639526,74,1.0,E,Europe/Paris,airport,OurAirports
+6522,Uetersen/Heist Airport,Uetersen,Germany,,EDHE,53.64638900756836,9.704167366027832,23,1.0,E,Europe/Berlin,airport,OurAirports
+6756,Leon Airport,Leon,Spain,LEN,LELN,42.5890007019043,-5.65556001663208,3006,1.0,E,Europe/Madrid,airport,OurAirports
+6757,Burgos Airport,Burgos,Spain,RGS,LEBG,42.357601,-3.62076,2945,1.0,E,Europe/Madrid,airport,OurAirports
+6798,Weser-Wümme Airport,Hellwege,Germany,,EDWM,53.05389022827149,9.208610534667969,59,1.0,E,Europe/Berlin,airport,OurAirports
+6830,Flugplatz Finsterwalde/Heinrichsruh,Finsterwalde,Germany,,EDAS,51.634445,13.675556,384,1.0,E,Europe/Berlin,airport,OurAirports
+6840,Dinslaken/Schwarze Heide Airport,Dinslaken,Germany,,EDLD,51.616112,6.865278,217,1.0,E,Europe/Berlin,airport,OurAirports
+6841,Höxter-Holzminden Airport,Hoexter Holzminden,Germany,,EDVI,51.80666732788086,9.37833309173584,1263,1.0,E,Europe/Berlin,airport,OurAirports
+6868,Sabadell Airport,Sabadell,Spain,QSA,LELL,41.52090072631836,2.1050798892974854,485,1.0,E,Europe/Madrid,airport,OurAirports
+6886,Lympne Airport,Lympne,United Kingdom,LYM,EGMK,51.08,1.013,351,0.0,E,Europe/London,airport,OurAirports
+6910,Harle Airport,Harlesiel,Germany,,EDXP,53.706668853759766,7.820278167724609,7,1.0,E,Europe/Berlin,airport,OurAirports
+6911,Wangerooge Airport,Wangerooge,Germany,AGE,EDWG,53.78277969360352,7.913888931274414,7,1.0,E,Europe/Berlin,airport,OurAirports
+6973,Volkel Air Base,Volkel,Netherlands,,EHVK,51.657222,5.7077778,72,1.0,E,Europe/Amsterdam,airport,OurAirports
+6975,Langeoog Airport,Langeoog,Germany,LGO,EDWL,53.74250030517578,7.497777938842773,7,1.0,E,Europe/Berlin,airport,OurAirports
+7030,Inisheer Aerodrome,Inisheer,Ireland,INQ,EIIR,53.064701080322266,-9.510899543762209,40,0.0,E,Europe/Dublin,airport,OurAirports
+7047,Whiting Field Naval Air Station South Airport,Cuxhaven,Germany,,KNDZ,30.70439910888672,-87.02300262451172,177,-6.0,E,America/Chicago,airport,OurAirports
+7134,Nabern/Teck Airport,Kirchheim-Teck,Germany,,EDTN,48.61277771,9.477222442629998,1214,1.0,E,Europe/Berlin,airport,OurAirports
+7459,Lleida-Alguaire Airport,Lleida,Spain,ILD,LEDA,41.728185,0.535023,1170,1.0,E,Europe/Madrid,airport,OurAirports
+7461,Ouessant Airport,Ouessant,France,,LFEC,48.46319961547852,-5.06358003616333,142,1.0,U,Europe/Paris,airport,OurAirports
+7468,Inishmaan Aerodrome,Inishmaan,Ireland,IIA,EIMN,53.09299850463867,-9.568059921264648,15,0.0,U,Europe/Dublin,airport,OurAirports
+7488,Huesca/Pirineos Airport,Huesca,Spain,HSK,LEHC,42.0760993958,-0.316666990519,1768,1.0,U,Europe/Madrid,airport,OurAirports
+7489,Ciudad Real Central Airport,Ciudad Real,Spain,CQM,LERL,38.8563888889,-3.97,0,1.0,U,Europe/Madrid,airport,OurAirports
+7492,Colonsay Airstrip,Colonsay,United Kingdom,CSA,EGEY,56.0574989319,-6.243060112,44,0.0,U,Europe/London,airport,OurAirports
+7498,Tresco Heliport,Tresco,United Kingdom,,EGHT,49.94559860229492,-6.331389904022217,20,0.0,U,Europe/London,airport,OurAirports
+7538,Würzburg-Schenkenturm Airport,Wuerzburg,Germany,,EDFW,49.81778,9.8975,991,1.0,E,Europe/Berlin,airport,OurAirports
+7542,São Jacinto Airport,Aveiro,Portugal,,LPAV,40.656741,-8.741544,26,0.0,E,Europe/Lisbon,airport,OurAirports
+7544,Hopsten Air Base,Hopsten,Germany,,ETNP,52.33869934082031,7.541329860687256,423,1.0,E,Europe/Berlin,airport,OurAirports
+7703,Fréjus Airport,Frejus,France,FRJ,LFTU,43.4175,6.7357,33,1.0,E,Europe/Paris,airport,OurAirports
+7722,London Heliport,London,United Kingdom,,EGLW,51.46972274779999,-0.179444000125,18,0.0,E,Europe/London,airport,OurAirports
+7726,Linkenheim Airport,Linkenheim,Germany,,EDRI,49.14166641235352,8.394721984863281,325,1.0,E,Europe/Berlin,airport,OurAirports
+7728,Hilversum Airfield,Hilversum,Netherlands,,EHHV,52.191898,5.14694,3,1.0,E,Europe/Amsterdam,airport,OurAirports
+7730,Texel Airfield,Texel,Netherlands,,EHTX,53.115299,4.83361,2,1.0,E,Europe/Amsterdam,airport,OurAirports
+7731,La Cerdanya Airport,Das i Fontanals de Cerdanya,Spain,,LECD,42.38639831542969,1.86667001247406,3586,1.0,E,Europe/Madrid,airport,OurAirports
+7773,White Waltham Airfield,Maidenhead,United Kingdom,,EGLM,51.5008010864,-0.774443984032,131,0.0,E,Europe/London,airport,OurAirports
+7787,Engels heliport,Ebenhofen,Germany,,EBEN,51.21166610717773,4.580832958221436,33,1.0,E,Europe/Brussels,airport,OurAirports
+7792,Emporia Municipal Airport,Kempten,Germany,EMP,KEMP,38.3320999146,-96.1912002563,1208,-6.0,E,America/Chicago,airport,OurAirports
+7800,Skå-Edeby Airport,Essen,Germany,,ESSE,59.34510040283203,17.74049949645996,0,1.0,E,Europe/Stockholm,airport,OurAirports
+7804,Wycombe Air Park,Wycombe,United Kingdom,HYC,EGTB,51.6116981506,-0.8083329796790001,515,0.0,E,Europe/London,airport,OurAirports
+7805,Bembridge Airport,Bembridge,United Kingdom,BBP,EGHJ,50.6781005859,-1.10943996906,53,0.0,E,Europe/London,airport,OurAirports
+7831,Hunt Field,Lindau,Germany,LND,KLND,42.8152008057,-108.730003357,5586,-7.0,E,America/Denver,airport,OurAirports
+7834,Hoogeveen Airfield,Hoogeveen,Netherlands,,EHHO,52.730801,6.51611,40,1.0,E,Europe/Amsterdam,airport,OurAirports
+7835,Teuge Airport,Deventer,Netherlands,,EHTE,52.2447013855,6.04666996002,17,1.0,E,Europe/Amsterdam,airport,OurAirports
+7836,Midden-Zeeland Airport,Middelburg,Netherlands,,EHMZ,51.5121994019,3.73111009598,6,1.0,E,Europe/Amsterdam,airport,OurAirports
+7837,Ameland Airfield,Ameland,Netherlands,,EHAL,53.451698,5.67722,11,1.0,E,Europe/Amsterdam,airport,OurAirports
+7838,Saint-Cyr-l'École Airport,Saint-Cyr,France,,LFPZ,48.8114013671875,2.0747199058532715,371,1.0,E,Europe/Paris,airport,OurAirports
+7855,Roitzschjora Airfield,Roitzschjora,Germany,,EDAW,51.577778,12.494444,289,1.0,U,Europe/Berlin,airport,OurAirports
+7867,De Peel Air Base,Deurne,Netherlands,,EHDP,51.51729965209961,5.855720043182373,98,1.0,E,Europe/Amsterdam,airport,OurAirports
+7892,Strasbourg Neuhof Airfield,Strasbourg Neudorf,France,,LFGC,48.554401,7.77806,456,1.0,E,Europe/Paris,airport,OurAirports
+7893,Nannhausen Airport,Nannhausen,Germany,,EDRN,49.9702796936,7.47916698456,1224,1.0,E,Europe/Berlin,airport,OurAirports
+7903,Marl-Loemühle Airfield,Recklinghausen,Germany,,EDLM,51.647202,7.16333,240,1.0,U,Europe/Berlin,airport,OurAirports
+7905,Lahr Airport,Lahr,Germany,LHA,EDTL,48.3693008423,7.82772016525,511,1.0,E,Europe/Berlin,airport,OurAirports
+7918,Regensburg-Oberhub Airport,Regensburg,Germany,,EDNR,49.14194488525391,12.081944465637209,1299,1.0,E,Europe/Berlin,airport,OurAirports
+7933,Cochstedt Airport,Cochstedt,Germany,CSO,EDBC,51.8563995361,11.42029953,594,1.0,E,Europe/Berlin,airport,OurAirports
+8006,Landshut Airport,Landshut,Germany,,EDML,48.51166534423828,12.033332824707031,1312,1.0,E,Europe/Berlin,airport,OurAirports
+8007,Itzehoe/Hungriger Wolf Airport,Itzehoe,Germany,,EDHF,53.99444580078125,9.578611373901367,89,1.0,E,Europe/Berlin,airport,OurAirports
+8035,Allstedt Airport,Allstedt,Germany,,EDBT,51.38055419921875,11.446666717529297,932,1.0,E,Europe/Berlin,airport,OurAirports
+8039,Peine-Eddesse Airport,Peine,Germany,,EDVP,52.402500152600005,10.228889465299998,249,1.0,E,Europe/Berlin,airport,OurAirports
+8054,Spremberg-Welzow Airport,Welzow,Germany,,EDCY,51.57555770874024,14.136943817138672,374,1.0,E,Europe/Berlin,airport,OurAirports
+8079,Megève Airport,Verdun,France,MVV,LFHM,45.82080078125,6.652219772338867,4823,1.0,U,Europe/Paris,airport,OurAirports
+8080,Méribel Altiport,Ajaccio,France,MFX,LFKX,45.407003,6.577942,5636,1.0,U,Europe/Paris,airport,OurAirports
+8085,Rotenburg (Wümme) Airport,Rotenburg Wuemme,Germany,,EDXQ,53.12833404541016,9.348610877990724,98,1.0,E,Europe/Berlin,airport,OurAirports
+8086,Wipperfürth-Neye Airport,Wipperfuerth,Germany,,EDKN,51.124168395996094,7.373610973358154,863,1.0,E,Europe/Berlin,airport,OurAirports
+8087,Osnabrück-Atterheide Airport,Osnabrueck,Germany,,EDWO,52.286388,7.969722,287,1.0,E,Europe/Berlin,airport,OurAirports
+8088,Flugplatz Ballenstedt,Ballenstedt,Germany,,EDCB,51.745834,11.229722,535,1.0,E,Europe/Berlin,airport,OurAirports
+8089,Flugplatz Hartenholm,Hasenmoor,Germany,,EDHM,53.915001,10.035556,108,1.0,E,Europe/Berlin,airport,OurAirports
+8090,Ganderkesee Atlas Airfield,Ganderkesee,Germany,,EDWQ,53.03611,8.505556,95,1.0,E,Europe/Berlin,airport,OurAirports
+8091,Nienburg-Holzbalge Airport,Nienburg Weser,Germany,,EDXI,52.709720611572266,9.162500381469728,82,1.0,E,Europe/Berlin,airport,OurAirports
+8092,Damme Airfield,Damme,Germany,,EDWC,52.487499,8.185556,151,1.0,E,Europe/Berlin,airport,OurAirports
+8093,Borkenberge Airport,Duelmen,Germany,,EDLB,51.7799987793,7.28805589676,157,1.0,E,Europe/Berlin,airport,OurAirports
+8094,Obermehler-Schlotheim Airport,Obermehler,Germany,,EDCO,51.26777648925781,10.634721755981444,909,1.0,E,Europe/Berlin,airport,OurAirports
+8095,Hodenhagen Airport,Hodenhagen,Germany,,EDVH,52.761865,9.61056,79,1.0,E,Europe/Berlin,airport,OurAirports
+8096,Grube Airport,Grube,Germany,,EDHB,54.24444580078125,11.0247220993042,7,1.0,E,Europe/Berlin,airport,OurAirports
+8098,Celle-Arloh Airport,Celle,Germany,,EDVC,52.68722152709961,10.11138916015625,207,1.0,E,Europe/Berlin,airport,OurAirports
+8099,Uelzen Airport,Uelzen,Germany,,EDVU,52.9838905334,10.4650001526,246,1.0,E,Europe/Berlin,airport,OurAirports
+8100,Hamm-Lippewiesen Airport,Hamm,Germany,,EDLH,51.689720153808594,7.816111087799072,190,1.0,E,Europe/Berlin,airport,OurAirports
+8101,Lüsse Airport,Luesse,Germany,,EDOJ,52.141109466552734,12.664722442626951,217,1.0,E,Europe/Berlin,airport,OurAirports
+8102,Porta Westfalica Airport,Bad Oeynhausen,Germany,,EDVY,52.22083282470703,8.859167098999023,148,1.0,E,Europe/Berlin,airport,OurAirports
+8103,Brilon/Hochsauerlandkreis Airfield,Brilon,Germany,,EDKO,51.4025,8.641667,1509,1.0,E,Europe/Berlin,airport,OurAirports
+8104,Hameln-Pyrmont Airport,Bad Pyrmont,Germany,,EDVW,51.96666717529297,9.291666984558104,1178,1.0,E,Europe/Berlin,airport,OurAirports
+8105,Nordholz-Spieka Airfield,Cuxhaven,Germany,,EDXN,53.767223,8.643611,72,1.0,E,Europe/Berlin,airport,OurAirports
+8106,Köthen Airport,Koethen,Germany,KOQ,EDCK,51.7211112976,11.9527778625,305,1.0,E,Europe/Berlin,airport,OurAirports
+8107,St. Michaelisdonn Airport,Sankt Michaelisdonn,Germany,,EDXM,53.978057861328125,9.14472198486328,125,1.0,E,Europe/Berlin,airport,OurAirports
+8108,Salzgitter-Drütte Airport,Salzgitter,Germany,,EDVS,52.15444564819336,10.42666721343994,328,1.0,E,Europe/Berlin,airport,OurAirports
+8109,Karlshöfen Airport,Karlshoefen,Germany,,EDWK,53.33277893066406,9.028332710266112,20,1.0,E,Europe/Berlin,airport,OurAirports
+8110,Oldenburg-Hatten Airfield,Oldenburg,Germany,,EDWH,53.06889,8.313611,26,1.0,E,Europe/Berlin,airport,OurAirports
+8111,Rinteln Airport,Rinteln,Germany,,EDVR,52.17527770996094,9.053333282470703,180,1.0,E,Europe/Berlin,airport,OurAirports
+8112,Münster-Telgte Airport,Muenster,Germany,,EDLT,51.94444274902344,7.773889064788818,177,1.0,E,Europe/Berlin,airport,OurAirports
+8113,St. Peter-Ording Airport,Sankt Peter-Ording,Germany,PSH,EDXO,54.30888748168945,8.686944007873535,7,1.0,E,Europe/Berlin,airport,OurAirports
+8114,Lüchow-Rehbeck Airport,Luechow,Germany,,EDHC,53.016109466552734,11.144444465637209,49,1.0,E,Europe/Berlin,airport,OurAirports
+8115,Klietz/Scharlibbe Airport,Scharlibbe,Germany,,EDCL,52.70944213867188,12.07333278656006,95,1.0,E,Europe/Berlin,airport,OurAirports
+8116,Burg Airport,Burg,Germany,,EDBG,52.24166870117188,11.85611057281494,174,1.0,E,Europe/Berlin,airport,OurAirports
+8119,Bad Neuenahr-Ahrweiler Airfield,Bad Neuenahr,Germany,,EDRA,50.557777,7.136389,673,1.0,E,Europe/Berlin,airport,OurAirports
+8120,Bad Dürkheim Airport,Bad Duerkheim,Germany,,EDRF,49.47305679321289,8.196389198303223,351,1.0,E,Europe/Berlin,airport,OurAirports
+8124,Leverkusen Airport,Leverkusen,Germany,,EDKL,51.01527786254883,7.005556106567383,157,1.0,E,Europe/Berlin,airport,OurAirports
+8126,Wershofen/Eifel Airfield,Wershofen,Germany,,EDRV,50.451389,6.783333,1581,1.0,E,Europe/Berlin,airport,OurAirports
+8178,Seppe Airfield,Bosschenhoofd,Netherlands,,EHSE,51.554699,4.5525,30,1.0,E,Europe/Amsterdam,airport,OurAirports
+8323,Compton Abbas Aerodrome,Shaftesbury,United Kingdom,,EGHA,50.96720123291016,-2.1536099910736084,811,0.0,U,Europe/London,airport,OurAirports
+8405,Glasgow City Heliport,Glasgow,United Kingdom,,EGEG,55.86138916015625,-4.29694414138794,0,0.0,E,Europe/London,airport,OurAirports
+8432,Gera-Leumnitz Airfield,Gera,Germany,,EDAJ,50.881668,12.135833,1014,1.0,E,Europe/Berlin,airport,OurAirports
+8438,Terlet Glider Field,Arnhem,Netherlands,,EHTL,52.057201,5.92444,276,1.0,E,Europe/Amsterdam,airport,OurAirports
+8459,Oerlinghausen Airport,TELGTE,Germany,,EDLO,51.932220458984375,8.661666870117188,558,1.0,E,Europe/Berlin,airport,OurAirports
+8500,Fuerstenwalde Airport,Furstenwalde,Germany,,EDAL,52.3905982971,14.0972003937,184,1.0,E,Europe/Berlin,airport,OurAirports
+8501,Eberswalde-Finow Airport,Eberswalde,Germany,,EDAV,52.82722091674805,13.693611145019531,121,1.0,E,Europe/Berlin,airport,OurAirports
+8577,Orlampa Inc Airport,Forties Alpha,United Kingdom,,FA08,28.1669998169,-81.80809783939999,139,0.0,U,America/New_York,airport,OurAirports
+8603,Saarmund Airport,Saarmund,Germany,,EDCS,52.30833435058594,13.100556373596191,174,1.0,E,Europe/Berlin,airport,OurAirports
+8609,Pont Sur Yonne Airfield,Pont Sur Yonne,France,,LFGO,48.289172,3.247912,236,1.0,E,Europe/Paris,airport,OurAirports
+8610,St Florentin Cheu Airfield,St Florentin Cheu,France,,LFGP,47.98019,3.775583,351,1.0,E,Europe/Paris,airport,OurAirports
+8611,Saulieu Liernais Airfield,Saulieu,France,,LFEW,47.239399,4.26583,1722,1.0,E,Europe/Paris,airport,OurAirports
+8620,Sinsheim Airfield,Karlsruhe,Germany,,EDTK,49.2472,8.8938,525,1.0,E,Europe/Berlin,airport,OurAirports
+8621,Weinheim/Bergstraße Airport,Weinheim,Germany,,EDGZ,49.567501068115234,8.610555648803711,318,1.0,E,Europe/Berlin,airport,OurAirports
+8622,Meaux Esbly Airport,Meaux,France,,LFPE,48.92779922485352,2.835279941558838,217,1.0,E,Europe/Paris,airport,OurAirports
+8623,Château-Thierry - Belleau Airfield,Chateau-Thierry,France,,LFFH,49.0672,3.35694,728,1.0,E,Europe/Paris,airport,OurAirports
+8669,Perth/Scone Airport,Perth,United Kingdom,PSL,EGPT,56.43920135498047,-3.372220039367676,397,0.0,E,Europe/London,airport,OurAirports
+8670,Caernarfon Airport,Caernarfon,United Kingdom,,EGCK,53.101819,-4.337614,1,0.0,E,Europe/London,airport,OurAirports
+8671,Grefrath-Niershorst Airport,Grefrath,Germany,,EDLF,51.33388900756836,6.35944414138794,105,1.0,E,Europe/Berlin,airport,OurAirports
+8683,Newcastle Aerodrome,Newcastle,Ireland,,EINC,53.07109832763672,-6.0452799797058105,1,0.0,E,Europe/Dublin,airport,OurAirports
+8689,Segeletz Airport,Segeletz,Germany,,EDAI,52.82666778564453,12.541943550109863,141,1.0,E,Europe/Berlin,airport,OurAirports
+8690,Fuentemilanos Airport,Segovia,Spain,,LEFM,40.8886108398,-4.23750019073,3307,1.0,E,Europe/Madrid,airport,OurAirports
+8698,Bantry Aerodrome,Bantry,Ireland,BYT,EIBN,51.66859817504883,-9.484169960021973,7,0.0,E,Europe/Dublin,airport,OurAirports
+8750,Peenemünde Airport,Peenemunde,Germany,PEF,EDCP,54.1577796936,13.774443626399998,7,1.0,E,Europe/Berlin,airport,OurAirports
+8813,Duxford Aerodrome,Duxford,United Kingdom,QFO,EGSU,52.090801,0.131944,125,0.0,E,Europe/London,airport,OurAirports
+8853,Fairoaks Airport,Fairoaks,United Kingdom,,EGTF,51.3480987549,-0.558888971806,80,0.0,U,Europe/London,airport,OurAirports
+8855,Neustadt-Glewe Airport,Neustadt-Glewe,Germany,,EDAN,53.35972213745117,11.615278244018556,115,1.0,E,Europe/Berlin,airport,OurAirports
+8860,Tutow Airport,Wildenrath,Germany,,EDUW,53.92194366455078,13.218889236450195,26,1.0,E,Europe/Berlin,airport,OurAirports
+8861,Bremgarten Airport,Bremgarten,Germany,,EDTG,47.9027786255,7.6177778244,696,1.0,E,Europe/Berlin,airport,OurAirports
+8862,Bitburg Airport,Birburg,Germany,BBJ,EDRB,49.945278,6.565,1220,1.0,U,Europe/Berlin,airport,OurAirports
+8894,Rochester Airport,Rochester,United Kingdom,RCS,EGTO,51.351898193359375,0.5033329725265503,436,0.0,E,Europe/London,airport,OurAirports
+8932,Rothera Research Station,Rothera Research Station,United Kingdom,,EGAR,-67.5675,-68.1274027778,9,12.0,U,Antarctica/South_Pole,airport,OurAirports
+8965,Beccles Airport,Beccles,United Kingdom,,EGSM,52.4352989197,1.6183300018300002,80,0.0,E,Europe/London,airport,OurAirports
+8972,RAF Brawdy,Brawdy,United Kingdom,,EGDA,51.88375,-5.119972,0,0.0,E,Europe/London,airport,OurAirports
+8975,Redhill Aerodrome,Redhill,United Kingdom,KRH,EGKR,51.2136001587,-0.138611003757,222,0.0,E,Europe/London,airport,OurAirports
+8985,Enstone Aerodrome,Enstone,United Kingdom,,EGTN,51.9281666667,-1.4285,550,0.0,U,Europe/London,airport,OurAirports
+9079,Thalmässing-Waizenhofen Airport,Thalmaessing,Germany,,EDPW,49.06416702270508,11.209166526794434,1893,1.0,E,Europe/Berlin,airport,OurAirports
+9100,Ansbach-Petersdorf Airport,Ansbach,Germany,,EDQF,49.361111,10.669444,1371,1.0,E,Europe/Berlin,airport,OurAirports
+9137,Oberschleißheim Airfield,Schleissheim,Germany,,EDNX,48.239445,11.561389,1594,1.0,E,Europe/Berlin,airport,OurAirports
+9141,Verden-Scharnhorst Airfield,Verden,Germany,,EDWV,52.965279,9.282778,144,1.0,E,Europe/Berlin,airport,OurAirports
+9147,Nittenau-Bruck Airport,Nittenau,Germany,,EDNM,49.22249984741211,12.296667098999023,1161,1.0,E,Europe/Berlin,airport,OurAirports
+9232,Neumünster Airport,Neumuenster,Germany,EUM,EDHN,54.07944488525391,9.941389083862305,72,1.0,E,Europe/Berlin,airport,OurAirports
+9276,Elstree Airfield,Elstree,United Kingdom,,EGTR,51.6557998657,-0.325832992792,332,0.0,E,Europe/London,airport,OurAirports
+9277,Sandtoft Airfield,Sandtoft,United Kingdom,,EGCF,53.5597000122,-0.8583329916,11,0.0,E,Europe/London,airport,OurAirports
+9380,Pellworm Field,Pellworm,Germany,,EDHP,54.5363883972,8.68000030518,3,1.0,E,Europe/Berlin,airport,OurAirports
+9388,Fontaine Airport,Belfort,France,BOR,LFSQ,47.655601501465,7.0108299255371,1208,1.0,E,Europe/Paris,airport,OurAirports
+9400,La Ferté Alais Airfield,La Ferte Alais,France,,LFFQ,48.498652,2.338867,453,1.0,E,Europe/Paris,airport,OurAirports
+9481,Guatuso Airport,Marigot,France,,MRGT,10.68333339691162,-84.83333587646484,164,-6.0,N,America/Costa_Rica,airport,OurAirports
+9484,Central Bolívar Airport,Sevilla,Spain,,SVSJ,8.916666984558105,-71.93333435058594,39,-4.0,E,America/Caracas,airport,OurAirports
+9753,Popham Airfield,Popham,United Kingdom,,EGHP,51.193901,-1.23472,550,0.0,E,Europe/London,airport,OurAirports
+9860,City Airport Manchester,Manchester,United Kingdom,,EGCB,53.471698761,-2.38971996307,73,0.0,U,Europe/London,airport,OurAirports
+9861,Sleap Airport,Shrewsbury,United Kingdom,,EGCV,52.8339004517,-2.77167010307,275,0.0,U,Europe/London,airport,OurAirports
+9862,Tatenhill Airfield,Burton-on-Trent,United Kingdom,,EGBM,52.8147010803,-1.76110994816,439,0.0,U,Europe/London,airport,OurAirports
+9863,Full Sutton Airfield,York,United Kingdom,,EGNU,53.980598,-0.864722,86,0.0,U,Europe/London,airport,OurAirports
+9864,Sherburn-In-Elmet Airfield,Leeds,United Kingdom,,EGCJ,53.788458,-1.216877,26,0.0,U,Europe/London,airport,OurAirports
+10089,Lille/Marcq-en-Baroeul Airport,Marcq En Baroeul,France,,LFQO,50.687198638916016,3.0755600929260254,69,1.0,E,,airport,OurAirports
+10161,Shobdon Aerodrome,Shobdon,United Kingdom,,EGBS,52.2416992188,-2.88110995293,318,0.0,E,,airport,OurAirports
+10173,Digby (General Hospital) Heliport,Tremblay-en-France,France,,CDG2,44.6161003112793,-65.76190185546875,105,1.0,E,,airport,OurAirports
+10617,Ota Air Base,Ota,Portugal,,LPOT,39.087502,-8.96278,140,1.0,E,,airport,OurAirports
+10723,Elsenthal Grafe Airport,Elsenthal,Germany,,EDNF,48.822498,13.3675,1417,1.0,E,,airport,OurAirports
+10744,Newtownards Airport,Newtownards,United Kingdom,,EGAD,54.5811004639,-5.69193983078,9,0.0,E,,airport,OurAirports
+10745,Lashenden (Headcorn) Airfield,Headcorn,United Kingdom,,EGKH,51.156898,0.641667,72,0.0,E,,airport,OurAirports
+10746,Panshanger Aerodrome,Panshanger,United Kingdom,,EGLG,51.80250167849999,-0.158056005836,249,0.0,E,,airport,OurAirports
+10747,Thurrock Airfield,Thurrock,United Kingdom,,EGMT,51.537505,0.367634,20,0.0,E,,airport,OurAirports
+10748,Stapleford Aerodrome,Stapleford,United Kingdom,,EGSG,51.652500152600005,0.155833005905,183,0.0,E,,airport,OurAirports
+10751,Chichester/Goodwood Airport,Goodwood,United Kingdom,QUG,EGHR,50.85940170288086,-0.7591670155525208,98,0.0,E,,airport,OurAirports
+10776,Meschede-Schüren Airport,Meschede,Germany,,EDKM,51.30277633666992,8.239167213439941,1434,1.0,E,,airport,OurAirports
+11032,Stade Airport,Stade,Germany,,EDHS,53.56111145019531,9.499167442321776,62,1.0,E,,airport,OurAirports
+11049,La Grand'combe Airport,La Grand'Combe,France,,LFTN,44.24440002441406,4.012219905853272,1647,1.0,E,,airport,OurAirports
+11132,Gießen-Lützellinden Airport,Giessen,Germany,,EDFL,50.543888092041016,8.590277671813965,755,1.0,E,,airport,OurAirports
+11170,Lure Malbouhans Air Base,Malbouhans,France,,LFYL,47.7047,6.54583,1040,1.0,E,,airport,OurAirports
+11718,Gelnhausen Airport,Gelnhausen,Germany,,EDFG,50.19722366333008,9.170000076293944,446,1.0,E,,airport,OurAirports
+11720,Lauterbach Airport,Lauterbach-Wernges,Germany,,EDFT,50.683334,9.410833,1211,1.0,E,,airport,OurAirports
+11721,Aschaffenburg Airport,Aschaffenburg,Germany,,EDFC,49.93888854980469,9.063888549804688,410,1.0,E,,airport,OurAirports
+11735,Reichelsheim Airport,Reichelsheim,Germany,,EDFB,50.33583450317383,8.878055572509766,397,1.0,E,,airport,OurAirports
+11737,Marburg-Schönstadt Airport,Schoenstadt,Germany,,EDFN,50.87444305419922,8.8149995803833,833,1.0,E,,airport,OurAirports
+11738,Lauenbrück Airport,Lauenbrueck,Germany,,EDHU,53.20750045776367,9.57333278656006,98,1.0,E,,airport,OurAirports
+11739,Hüttenbusch Airport,Huettenbusch,Germany,,EDXU,53.28666687011719,8.947221755981445,10,1.0,E,,airport,OurAirports
+11785,Neubrandenburg Airport,Neubrandenburg,Germany,FNB,EDBN,53.6022,13.306,228,,,,airport,OurAirports
+11786,Airport Bamberg-Breitenau,Bamberg,Germany,,EDQA,49.920403,10.914233,811,,,,airport,OurAirports
+11787,Zerbst Airport,Zerbst/Anhalt,Germany,,EDUZ,52.000832,12.148611,289,,,,airport,OurAirports
+11788,RAF Spadeadam,Spadeadam,United Kingdom,,EGOM,55.0499992371,-2.54999995232,1066,,,,airport,OurAirports
+11789,RAF Kinloss,Kinloss,United Kingdom,FSS,EGQK,57.6493988037,-3.56064009666,22,,,,airport,OurAirports
+11878,Cuatro Vientos Airport,Madrid,Spain,ECV,LECU,40.370701,-3.78514,2269,,,,airport,OurAirports
+11879,Castellón-Costa Azahar Airport,Castellón de la Plana,Spain,CDT,LEDS,40.213889,0.073333,1145,,,,airport,OurAirports
+11880,Teruel Airport,Teruel,Spain,TEV,LETL,40.403,-1.2183,3380,,,,airport,OurAirports
+11881,Blois-Le Breuil Airport,Blois/Le Breuil,France,,LFOQ,47.678502,1.20884,398,,,,airport,OurAirports
+12133,Arnbruck Airport,Arnbruck,Germany,,EDNB,49.12472152709961,12.985555648803713,1716,1.0,U,,airport,OurAirports
+12310,Krefeld-Egelsberg Airport,Krefeld,Germany,,EDLK,51.3849983215332,6.587778091430664,141,1.0,U,,airport,OurAirports
+12470,Baltrum Airport,Baltrum,Germany,BMR,EDWZ,53.72472381591797,7.373332977294922,7,1.0,E,,airport,OurAirports
+12640,Lognes Emerainville Airport,Lognes,France,,LFPL,48.821028,2.625967,359,1.0,E,,airport,OurAirports
+13009,Vogtareuth Airport,Vogtareuth,Germany,,EDNV,47.94610977172852,12.20472240447998,1535,1.0,E,,airport,OurAirports
+13114,RAF Mona,Mona,United Kingdom,,EGOQ,53.258598,-4.37355,202,0.0,E,,airport,OurAirports
+13120,Rerik-Zweedorf Airport,Rerik,Germany,,EDCR,54.08194351196289,11.64916706085205,30,1.0,E,,airport,OurAirports
+13180,St. Helena Airport,Longwood,United Kingdom,HLE,FHSH,-15.957725,-5.645943,1017,0.0,U,,airport,OurAirports
+13183,Bonn-Hangelar Airport,Sankt-Augustin,Germany,BNJ,EDKB,50.7688903809,7.16333293915,197,1.0,E,,airport,OurAirports
+13199,Northeim Airport,Northeim,Germany,,EDVN,51.706390380859375,10.039722442626951,404,1.0,E,,airport,OurAirports
+13248,Torgau-Beilrode Airport,Gransee,Germany,,EDOG,51.570907,13.051641,0,1.0,E,,airport,OurAirports
+13411,St Pierre d'Oléron Airfield,Saint Pierre d'Oleron,France,,LFDP,45.959202,-1.31611,20,-1.0,E,,airport,OurAirports
+13412,Semur En Auxois Airfield,Semur en Auxois,France,,LFGQ,47.481899,4.34417,1053,-1.0,E,,airport,OurAirports
+13677,Algeciras Heliport,Algeciras,Spain,AEI,LEAG,36.12888,-5.441118,98,-2.0,E,,airport,OurAirports
+13718,Aerodromo de Castelo Branco,Castelo Branco,Portugal,,LPCB,39.847022,-7.44111,1300,,,,airport,OurAirports
+13719,Ponte de Sor Airport,Ponte de Sôr,Portugal,,LPSO,39.211559,-8.056542,0,,,,airport,OurAirports
+13720,Vilar de Luz Airfield,Maia,Portugal,,LPVL,41.27729,-8.516209,762,,,,airport,OurAirports
+13829,Región de Murcia International Airport,Murcia,Spain,RMU,LEMI,37.803,-1.125,632,1.0,E,,airport,OurAirports

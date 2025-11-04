@@ -1,0 +1,106 @@
+@prefix ex:   <http://example.org/flight#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+######## Landmark Types (once) ########
+ex:Museum a ex:LandmarkType ; rdfs:label "Museum" .
+ex:Monument a ex:LandmarkType ; rdfs:label "Monument" .
+ex:Bridge a ex:LandmarkType ; rdfs:label "Bridge" .
+ex:ReligiousSite a ex:LandmarkType ; rdfs:label "Religious Site" .
+ex:Square a ex:LandmarkType ; rdfs:label "Square" .
+ex:District a ex:LandmarkType ; rdfs:label "District" .
+ex:Park a ex:LandmarkType ; rdfs:label "Park" .
+ex:Architecture a ex:LandmarkType ; rdfs:label "Architecture" .
+
+######## FRANCE ########
+
+<http://example.org/flight/city/Paris_France> ex:hasLandmark
+  ex:eiffel_tower, ex:louvre, ex:notre_dame .
+
+ex:eiffel_tower a ex:Landmark ; rdfs:label "Eiffel Tower" ; ex:hasLandmarkType ex:Monument .
+ex:louvre a ex:Landmark ; rdfs:label "Louvre Museum" ; ex:hasLandmarkType ex:Museum .
+ex:notre_dame a ex:Landmark ; rdfs:label "Notre-Dame Cathedral" ; ex:hasLandmarkType ex:ReligiousSite .
+
+######## IRELAND ########
+
+<http://example.org/flight/city/Dublin_Ireland> ex:hasLandmark
+  ex:guinness_storehouse, ex:temple_bar, ex:molly_malone_statue .
+
+ex:guinness_storehouse a ex:Landmark ; rdfs:label "Guinness Storehouse" ; ex:hasLandmarkType ex:Museum .
+ex:temple_bar a ex:Landmark ; rdfs:label "Temple Bar" ; ex:hasLandmarkType ex:District .
+ex:molly_malone_statue a ex:Landmark ; rdfs:label "Molly Malone Statue" ; ex:hasLandmarkType ex:Monument .
+
+######## UNITED KINGDOM ########
+
+<http://example.org/flight/city/London_United%20Kingdom> ex:hasLandmark
+  ex:tower_of_london, ex:big_ben, ex:tower_bridge .
+
+ex:tower_of_london a ex:Landmark ; rdfs:label "Tower of London" ; ex:hasLandmarkType ex:Monument .
+ex:big_ben a ex:Landmark ; rdfs:label "Big Ben"         ; ex:hasLandmarkType ex:Monument .
+ex:tower_bridge a ex:Landmark ; rdfs:label "Tower Bridge"    ; ex:hasLandmarkType ex:Bridge .
+
+<http://example.org/flight/city/Edinburgh_United%20Kingdom> ex:hasLandmark
+  ex:edinburgh_castle, ex:royal_mile .
+
+ex:edinburgh_castle a ex:Landmark ; rdfs:label "Edinburgh Castle" ; ex:hasLandmarkType ex:Monument .
+ex:royal_mile a ex:Landmark ; rdfs:label "The Royal Mile"    ; ex:hasLandmarkType ex:District .
+
+######## GERMANY ########
+
+<http://example.org/flight/city/Berlin_Germany> ex:hasLandmark
+  ex:brandenburg_gate, ex:berliner_fernsehturm, ex:reichstag_dome .
+
+ex:brandenburg_gate a ex:Landmark ; rdfs:label "Brandenburg Gate" ; ex:hasLandmarkType ex:Monument .
+ex:berliner_fernsehturm a ex:Landmark ; rdfs:label "Berlin TV Tower (Fernsehturm)"; ex:hasLandmarkType ex:Architecture .
+ex:reichstag_dome a ex:Landmark ; rdfs:label "Reichstag Dome" ; ex:hasLandmarkType ex:Architecture .
+
+<http://example.org/flight/city/Munich_Germany> ex:hasLandmark
+  ex:marienplatz, ex:nymphenburg .
+
+ex:marienplatz a ex:Landmark ; rdfs:label "Marienplatz" ; ex:hasLandmarkType ex:Square .
+ex:nymphenburg a ex:Landmark ; rdfs:label "Nymphenburg Palace" ; ex:hasLandmarkType ex:Architecture .
+
+######## NETHERLANDS ########
+
+<http://example.org/flight/city/Amsterdam_Netherlands> ex:hasLandmark
+  ex:anne_frank_house, ex:rijksmuseum, ex:dam_square .
+
+ex:anne_frank_house a ex:Landmark ; rdfs:label "Anne Frank House" ; ex:hasLandmarkType ex:Museum .
+ex:rijksmuseum a ex:Landmark ; rdfs:label "Rijksmuseum" ; ex:hasLandmarkType ex:Museum .
+ex:dam_square  a ex:Landmark ; rdfs:label "Dam Square"  ; ex:hasLandmarkType ex:Square .
+
+<http://example.org/flight/city/Rotterdam_Netherlands> ex:hasLandmark
+  ex:erasmus_bridge, ex:cubic_houses .
+
+ex:erasmus_bridge a ex:Landmark ; rdfs:label "Erasmus Bridge" ; ex:hasLandmarkType ex:Bridge .
+ex:cubic_houses a ex:Landmark ; rdfs:label "Cube Houses (Kubuswoningen)"; ex:hasLandmarkType ex:Architecture .
+
+######## SPAIN ########
+
+<http://example.org/flight/city/Madrid_Spain> ex:hasLandmark
+  ex:royal_palace_madrid, ex:puerta_del_sol, ex:plaza_mayor .
+
+ex:royal_palace_madrid a ex:Landmark ; rdfs:label "Royal Palace of Madrid" ; ex:hasLandmarkType ex:Architecture .
+ex:puerta_del_sol a ex:Landmark ; rdfs:label "Puerta del Sol" ; ex:hasLandmarkType ex:Square .
+ex:plaza_mayor a ex:Landmark ; rdfs:label "Plaza Mayor" ; ex:hasLandmarkType ex:Square .
+
+<http://example.org/flight/city/Barcelona_Spain> ex:hasLandmark
+  ex:sagrada_familia, ex:park_guell, ex:casa_batllo .
+
+ex:sagrada_familia a ex:Landmark ; rdfs:label "Sagrada Família" ; ex:hasLandmarkType ex:ReligiousSite .
+ex:park_guell a ex:Landmark ; rdfs:label "Park Güell" ; ex:hasLandmarkType ex:Park .
+ex:casa_batllo a ex:Landmark ; rdfs:label "Casa Batlló" ; ex:hasLandmarkType ex:Architecture .
+
+######## PORTUGAL ########
+
+<http://example.org/flight/city/Lisbon_Portugal> ex:hasLandmark
+  ex:belem_tower, ex:jeronimos_monastery, ex:commerce_square .
+
+ex:belem_tower a ex:Landmark ; rdfs:label "Belém Tower"         ; ex:hasLandmarkType ex:Monument .
+ex:jeronimos_monastery a ex:Landmark ; rdfs:label "Jerónimos Monastery" ; ex:hasLandmarkType ex:ReligiousSite .
+ex:commerce_square a ex:Landmark ; rdfs:label "Praça do Comércio"   ; ex:hasLandmarkType ex:Square .
+
+<http://example.org/flight/city/Porto_Portugal> ex:hasLandmark
+  ex:dom_luis_bridge, ex:livraria_lello .
+
+ex:dom_luis_bridge a ex:Landmark ; rdfs:label "Dom Luís I Bridge" ; ex:hasLandmarkType ex:Bridge .
+ex:livraria_lello  a ex:Landmark ; rdfs:label "Livraria Lello" ; ex:hasLandmarkType ex:Architecture .

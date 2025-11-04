@@ -4,13 +4,15 @@
 @prefix ex:   <http://example.org/flight#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://example.org/rml/> .
+
 
 #turn each row of csv into rdf
 #create a unique URI for each airport 
 
 <#Airport> a rr:TriplesMap ;
     rml:logicalSource [
-        rml:source "C:\Users\irish\Computer_Electronic_Engineering_Year5\Knowledge_Data_Engineering\Final_Project\Data\openflights\airports.csv" ;
+        rml:source "C:\Users\irish\Computer_Electronic_Engineering_Year5\Knowledge_Data_Engineering\Final_Project\Data\openflights\airports_region.csv" ;
         rml:referenceFormulation ql:CSV
     ];
 
@@ -57,12 +59,13 @@
         rr:objectMap [rr:template "{Name} ({IATA})"]
     ] .
 
+
     #create logic to link airport - city - country
 
 # countries triple map, taken from csv the same way
 <#Countries> a rr:TriplesMap ;
     rml:logicalSource [
-        rml:source "../Data/openflights/airports.csv" ;
+        rml:source "C:\Users\irish\Computer_Electronic_Engineering_Year5\Knowledge_Data_Engineering\Final_Project\Data\openflights\airports_region.csv" ;
         rml:referenceFormulation ql:CSV 
     ] ;
 
@@ -78,7 +81,7 @@
 #cities - make link between cities and the countries they reside in
 <#Cities> a rr:TriplesMap ;
     rml:logicalSource [
-        rml:source "C:\Users\irish\Computer_Electronic_Engineering_Year5\Knowledge_Data_Engineering\Final_Project\Data\openflights\airports.csv" ;
+        rml:source "C:\Users\irish\Computer_Electronic_Engineering_Year5\Knowledge_Data_Engineering\Final_Project\Data\openflights\airports_region.csv" ;
         rml:referenceFormulation ql:CSV
     ] ;
     #identify with both city and country to avoid clashes - ex. Paris Texas

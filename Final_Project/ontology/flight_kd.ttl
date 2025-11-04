@@ -3,6 +3,7 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix schema: <https://schema.org/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 
 ####################
 # Classes (more than 8 classes cant have more than 3 subclasses)
@@ -13,9 +14,9 @@ ex:City a owl:Class ; rdfs:label "City" .
 ex:Country a owl:Class ; rdfs:label "Country" .
 ex:Airline a owl:Class ; rdfs:label "Airline" .
 ex:Route a owl:Class ; rdfs:label "Route (single leg - no layover)" .
-ex:Itinerary a owl:Class ; rdfs:label "Itinerary" .
-ex:Leg a owl:Class ; rdfs:label "Leg" .
-ex:Connection a owl:Class ; rdfs:label "Connection (Layover)" .
+ex:Landmark a owl:Class ; rdfs:label "city x has landmark y" .
+ex:LandmarkType a owl:Class ; rdfs:label "what type of landmark is it" .
+ex:Continent a owl:Class ; rdfs:label "Continent" .
 
 ######################
 #subclassses
@@ -35,7 +36,7 @@ ex:DirectFlightItinerary rdfs:subClassOf ex:Itinerary .
 #also have inverseOf so it goes both ways 
 
 ex:servesCity a owl:ObjectProperty ;
-    rdfs:domain ex:airport ; rdfs:range ex:City ;
+    rdfs:domain ex:Airport ; rdfs:range ex:City ;
     rdfs:label "serves the city" .
 
 ex:hasAirport a owl:ObjectProperty ;
@@ -55,6 +56,9 @@ ex:origin a owl:ObjectProperty ;
 ex:destination a owl:ObjectProperty ;
     rdfs:domain ex:Route ; rdfs:range ex:Airport .
 
+ex:isOriginOf a owl:ObjectProperty ; owl:inverseOf ex:origin .
+ex:isDestinationOf a owl:ObjectProperty ; owl:inverseOf ex:destination .
+
 #connection between route and the airline that travels this route
 ex:operatedBy a owl:ObjectProperty ;
     rdfs:domain ex:Route ; rdfs:range ex:Airline .
@@ -63,15 +67,23 @@ ex:operatesRoute a owl:ObjectProperty ;
   rdfs:domain ex:Airline ; rdfs:range ex:Route ;
   owl:inverseOf ex:operatedBy .
 
-#if there are multiple airports in the same city - paris has 3 
+#if there are multiple airports in the same city - paris has 3 airports
 ex:sharesCityWith a owl:ObjectProperty, owl:SymmetricProperty ;
-    rdfs:domain ex:Airport ; rdfs:range ex:Airport .
+  rdfs:domain ex:Airport ; rdfs:range ex:Airport ;
+  owl:propertyChainAxiom ( ex:servesCity ex:hasAirport ) .
 
 #airport to airport edges - direct connections no layovers
 
+#ex:directTo a owl:ObjectProperty ;
+#    rdfs:domain ex:Airport ; rdfs:range ex:Airport ;
+#    rdfs:comment "there is a direct route between origin and destination" .
+#    #owl:propertyChainAxiom ( [ owl:inverseOf ex:origin ] ex:destination ) .
+
 ex:directTo a owl:ObjectProperty ;
-    rdfs:domain ex:Airport ; rdfs:range ex:Airport ;
-    rdfs:comment "there is a direct route between origin and destination" .
+    rdfs:domain ex:Airport ;
+    rdfs:range  ex:Airport ;
+    rdfs:subPropertyOf ex:reachable ;
+    owl:propertyChainAxiom ( ex:isOriginOf ex:destination ) .
 
 #this will allow for queries on "is there a connection between dublin and sydney"
 #transisitive reachability
@@ -83,6 +95,37 @@ ex:directTo rdfs:subPropertyOf ex:reachable .
 ex:hasLeg a owl:ObjectProperty ;
   rdfs:domain ex:Itinerary ; rdfs:range ex:Route .
 
+ex:hasLandmark a owl:ObjectProperty ;
+    rdfs:domain ex:City ;
+    rdfs:range ex:Landmark ;
+    rdfs:label "has landmark" ;
+    owl:inverseOf ex:isLandmarkOf .
+
+ex:isLandmarkOf a owl:ObjectProperty ;
+    rdfs:domain ex:Landmark ; rdfs:range ex:City ;
+    rdfs:label "is landmark of" .
+
+## logic for continent 
+ex:inContinent a owl:ObjectProperty ;
+  rdfs:domain ex:Country ; rdfs:range ex:Continent ;
+  rdfs:label "in continent" ;
+  owl:inverseOf ex:hasCountry .
+
+ex:hasCountry a owl:ObjectProperty ;
+  rdfs:domain ex:Continent ; rdfs:range ex:Country ;
+  rdfs:label "has country" .
+
+##landmark type logic
+ex:hasLandmarkType a owl:ObjectProperty ;
+  rdfs:domain ex:Landmark ; rdfs:range ex:LandmarkType ;
+  rdfs:label "has landmark type" ;
+  owl:inverseOf ex:isTypeOf .
+
+ex:isTypeOf a owl:ObjectProperty ;
+  rdfs:domain ex:Landmark ; rdfs:range ex:LandmarkType ;
+  rdfs:label "is type of" .
+
+
 ###############
 # Data Properties - based on data from csv and added properties
 ##############
@@ -92,8 +135,8 @@ ex:airportName a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:
 ex:latitude a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:decimal .
 ex:longitude a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:decimal .
 ex:stops a owl:DatatypeProperty ; rdfs:domain ex:Route   ; rdfs:range xsd:integer .
-ex:estimatedDistanceKm a owl:DatatypeProperty ; rdfs:domain ex:Route ; rdfs:range xsd:decimal .
-ex:avgTravelTimeMin a owl:DatatypeProperty ; rdfs:domain ex:Itinerary ; rdfs:range xsd:integer .
+#ex:estimatedDistanceKm a owl:DatatypeProperty ; rdfs:domain ex:Route ; rdfs:range xsd:decimal .
+#ex:avgTravelTimeMin a owl:DatatypeProperty ; rdfs:domain ex:Itinerary ; rdfs:range xsd:integer .
 
 
 #cardinality restrictions 

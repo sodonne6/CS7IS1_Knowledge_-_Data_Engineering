@@ -1,0 +1,24 @@
+@prefix ex:   <http://example.org/flight#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:northAmerica a ex:Continent .
+ex:southAmerica a ex:Continent .
+ex:europe a ex:Continent .
+ex:africa a ex:Continent .
+ex:asia a ex:Continent .
+ex:oceania a ex:Continent .
+ex:antarctica a ex:Continent .
+
+<http://example.org/flight/country/France> ex:inContinent ex:europe .
+
+<http://example.org/flight/country/Spain> ex:inContinent ex:europe .
+
+<http://example.org/flight/country/United%20Kingdom> ex:inContinent ex:europe .
+
+<http://example.org/flight/country/Ireland> ex:inContinent ex:europe .
+
+<http://example.org/flight/country/Portugal> ex:inContinent ex:europe .
+<http://example.org/flight/country/Germany> ex:inContinent ex:europe .
+<http://example.org/flight/country/Netherlands> ex:inContinent ex:europe .
+
+

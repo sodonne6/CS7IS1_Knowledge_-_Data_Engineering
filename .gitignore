@@ -1,0 +1,5 @@
+# Ignore tools and any .jar anywhere
+Final_Project/tools/
+*.jarFinal_Project/tools/
+*.jar
+!Final_Project/tools/.gitkeep
