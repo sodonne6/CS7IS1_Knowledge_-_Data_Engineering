@@ -20,7 +20,7 @@ ex:AirportShape a sh:NodeShape ;
     # cant have less than or more than 1 IATA
     sh:property [
         sh:path ex:iataCode ;
-        sh:minCount 1 ; sh:maxCount 1 ;
+        sh:maxCount 1 ;
         sh:datatype xsd:string ;
     ] .
 

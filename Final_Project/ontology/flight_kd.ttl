@@ -24,7 +24,6 @@ ex:Continent a owl:Class ; rdfs:label "Continent" .
 
 ex:InternationalAirport rdfs:subClassOf ex:Airport .
 ex:DomesticRoute rdfs:subClassOf ex:Route .
-ex:DirectFlightItinerary rdfs:subClassOf ex:Itinerary .
 
 ######################
 # object properties - have a look at the lecture slides on owl for this 
