@@ -22,8 +22,8 @@ ex:Continent a owl:Class ; rdfs:label "Continent" .
 #subclassses
 ######################
 
-ex:InternationalAirport rdfs:subClassOf ex:Airport .
-ex:DomesticRoute rdfs:subClassOf ex:Route .
+#ex:InternationalAirport rdfs:subClassOf ex:Airport .
+#ex:DomesticRoute rdfs:subClassOf ex:Route .
 
 ######################
 # object properties - have a look at the lecture slides on owl for this 
@@ -91,8 +91,10 @@ ex:reachable a owl:ObjectProperty , owl:TransitiveProperty .
 ex:directTo rdfs:subPropertyOf ex:reachable .
 
 #Itinerary composition (needed for cardinality later)
-ex:hasLeg a owl:ObjectProperty ;
-  rdfs:domain ex:Itinerary ; rdfs:range ex:Route .
+#ex:hasLeg a owl:ObjectProperty ;
+  #rdfs:domain ex:Itinerary ; rdfs:range ex:Route .
+
+ex:cityName a owl:DatatypeProperty ; rdfs:domain ex:City ; rdfs:range xsd:string .
 
 ex:hasLandmark a owl:ObjectProperty ;
     rdfs:domain ex:City ;
@@ -134,6 +136,7 @@ ex:airportName a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:
 ex:latitude a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:decimal .
 ex:longitude a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:decimal .
 ex:stops a owl:DatatypeProperty ; rdfs:domain ex:Route   ; rdfs:range xsd:integer .
+
 #ex:estimatedDistanceKm a owl:DatatypeProperty ; rdfs:domain ex:Route ; rdfs:range xsd:decimal .
 #ex:avgTravelTimeMin a owl:DatatypeProperty ; rdfs:domain ex:Itinerary ; rdfs:range xsd:integer .
 
@@ -159,4 +162,15 @@ ex:Itinerary rdfs:subClassOf
 ex:Airport rdfs:subClassOf
   [ a owl:Restriction ; owl:onProperty ex:latitude  ; owl:cardinality "1"^^xsd:nonNegativeInteger ],
   [ a owl:Restriction ; owl:onProperty ex:longitude ; owl:cardinality "1"^^xsd:nonNegativeInteger ] .
+
+ex:City rdfs:subClassOf
+  [ a owl:Restriction ;
+    owl:onProperty ex:inCountry ;
+    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+    owl:onClass ex:Country ] .
+
+ex:Country rdfs:subClassOf
+  [ a owl:Restriction ; owl:onProperty ex:inContinent ; owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ; owl:onClass ex:Continent ] .
+
+ex:City rdfs:subClassOf [ a owl:Restriction ; owl:onProperty ex:cityName ; owl:cardinality "1"^^xsd:nonNegativeInteger ] .
 

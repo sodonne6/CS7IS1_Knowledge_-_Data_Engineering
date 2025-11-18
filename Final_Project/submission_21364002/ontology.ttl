@@ -1,0 +1,250 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ex: <http://example.org/flight#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dc:creator a owl:AnnotationProperty .
+
+dc:title a owl:AnnotationProperty .
+
+ex: a owl:Ontology ;
+    dc:creator "Shane O'Donnell" ;
+    dc:title "Flight Connectivity Ontology" ;
+    owl:versionInfo "0.0.1" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+ex:directTo a owl:ObjectProperty ;
+    rdfs:label "direct to" ;
+    rdfs:domain ex:Airport ;
+    rdfs:range ex:Airport ;
+    rdfs:subPropertyOf ex:reachable ;
+    owl:propertyChainAxiom ( ex:isOriginOf ex:destination ) .
+
+ex:hasCountry a owl:ObjectProperty ;
+    rdfs:label "has country" ;
+    rdfs:domain ex:Continent ;
+    rdfs:range ex:Country ;
+    owl:inverseOf ex:inContinent .
+
+ex:inContinent a owl:ObjectProperty ;
+    rdfs:label "in continent" ;
+    rdfs:domain ex:Country ;
+    rdfs:range ex:Continent .
+
+ex:inCountry a owl:ObjectProperty ;
+    rdfs:label "in country" ;
+    rdfs:domain ex:City ;
+    rdfs:range ex:Country .
+
+ex:isLandmarkOf a owl:ObjectProperty ;
+    rdfs:label "is landmark of" ;
+    rdfs:domain ex:Landmark ;
+    rdfs:range ex:City ;
+    owl:inverseOf ex:hasLandmark .
+
+ex:hasLandmark a owl:ObjectProperty ;
+    rdfs:label "has landmark" ;
+    rdfs:domain ex:City ;
+    rdfs:range ex:Landmark .
+
+ex:operatesRoute a owl:ObjectProperty ;
+    rdfs:label "operates route" ;
+    rdfs:domain ex:Airline ;
+    rdfs:range ex:Route ;
+    owl:inverseOf ex:operatedBy .
+
+ex:operatedBy a owl:ObjectProperty ;
+    rdfs:label "operated by" ;
+    rdfs:domain ex:Route ;
+    rdfs:range ex:Airline .
+
+ex:sharesCityWith a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:label "shares city with" ;
+    rdfs:domain ex:Airport ;
+    rdfs:range ex:Airport ;
+    owl:propertyChainAxiom ( ex:servesCity ex:hasAirport ) .
+
+owl:versionInfo a owl:AnnotationProperty .
+
+ex:airportName a owl:DatatypeProperty ;
+    rdfs:label "airport name" ;
+    rdfs:domain ex:Airport ;
+    rdfs:range xsd:string .
+
+ex:cityName a owl:DatatypeProperty ;
+    rdfs:label "city name" ;
+    rdfs:domain ex:City ;
+    rdfs:range xsd:string .
+
+ex:hasAirport a owl:ObjectProperty ;
+    rdfs:label "has airport" ;
+    rdfs:domain ex:City ;
+    rdfs:range ex:Airport ;
+    owl:inverseOf ex:servesCity .
+
+ex:iataCode a owl:DatatypeProperty ;
+    rdfs:label "iata code" ;
+    rdfs:domain ex:Airport ;
+    rdfs:range xsd:string .
+
+ex:icaoCode a owl:DatatypeProperty ;
+    rdfs:label "icao code" ;
+    rdfs:domain ex:Airport ;
+    rdfs:range xsd:string .
+
+ex:isDestinationOf a owl:ObjectProperty ;
+    rdfs:label "is destination of" ;
+    rdfs:domain ex:Airport ;
+    rdfs:range ex:Route .
+
+ex:latitude a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:domain ex:Airport ;
+    rdfs:range xsd:decimal .
+
+ex:longitude a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:domain ex:Airport ;
+    rdfs:range xsd:decimal .
+
+ex:origin a owl:ObjectProperty ;
+    rdfs:label "origin" ;
+    rdfs:domain ex:Route ;
+    rdfs:range ex:Airport ;
+    owl:inverseOf ex:isOriginOf .
+
+ex:destination a owl:ObjectProperty ;
+    rdfs:label "destination" ;
+    rdfs:domain ex:Route ;
+    rdfs:range ex:Airport ;
+    owl:inverseOf ex:isDestinationOf .
+
+ex:reachable a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "reachable" ;
+    rdfs:domain ex:Airport ;
+    rdfs:range ex:Airport .
+
+ex:stops a owl:DatatypeProperty ;
+    rdfs:label "stops" ;
+    rdfs:domain ex:Route ;
+    rdfs:range xsd:integer .
+
+ex:Airline a owl:Class ;
+    rdfs:label "Airline" .
+
+ex:Continent a owl:Class ;
+    rdfs:label "Continent" .
+
+ex:LandmarkType a owl:Class ;
+    rdfs:label "Landmark Type" .
+
+
+
+
+
+ex:hasLandmarkType a owl:ObjectProperty ;
+    rdfs:label "has landmark type" ;
+    rdfs:domain ex:Landmark ;
+    rdfs:range ex:LandmarkType .
+    
+ex:isTypeOf a owl:ObjectProperty ;
+    rdfs:label "is type of" ;
+    rdfs:domain ex:LandmarkType ;
+    rdfs:range  ex:Landmark ;
+    owl:inverseOf ex:hasLandmarkType .
+
+
+
+ex:isOriginOf a owl:ObjectProperty ;
+    rdfs:label "is origin of" ;
+    rdfs:domain ex:Airport ;
+    rdfs:range ex:Route .
+
+
+
+ex:servesCity a owl:ObjectProperty ;
+    rdfs:label "serves city" ;
+    rdfs:domain ex:Airport ;
+    rdfs:range ex:City .
+
+ex:Country a owl:Class ;
+    rdfs:label "Country" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:inContinent ] .
+
+ex:Landmark a owl:Class ;
+    rdfs:label "Landmark" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:hasLandmarkType ] .
+
+
+ex:City a owl:Class ;
+    rdfs:label "City" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:hasLandmark ],
+        [ a owl:Restriction ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty ex:cityName ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ] ,
+        [ a owl:Restriction ;
+            owl:onProperty ex:inCountry ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass ex:Country ] .
+
+ex:Route a owl:Class ;
+    rdfs:label "Route" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:origin ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:destination ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:operatedBy ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onDataRange xsd:integer ;
+            owl:onProperty ex:stops ] .
+
+ex:Airport a owl:Class ;
+    rdfs:label "Airport" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty ex:icaoCode ],
+        [ a owl:Restriction ;
+            owl:onDataRange xsd:decimal ;
+            owl:onProperty ex:latitude ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        [ a owl:Restriction ;
+            owl:onDataRange xsd:decimal ;
+            owl:onProperty ex:longitude ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        [ a owl:Restriction ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty ex:airportName ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        [ a owl:Restriction ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty ex:iataCode ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ] .
+
+
+###############
+# Data Properties - based on data from csv and added properties
+##############
+ex:iataCode a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:string .
+ex:icaoCode a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:string .
+ex:airportName a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:string .
+ex:latitude a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:decimal .
+ex:longitude a owl:DatatypeProperty ; rdfs:domain ex:Airport ; rdfs:range xsd:decimal .
+ex:stops a owl:DatatypeProperty ; rdfs:domain ex:Route   ; rdfs:range xsd:integer .

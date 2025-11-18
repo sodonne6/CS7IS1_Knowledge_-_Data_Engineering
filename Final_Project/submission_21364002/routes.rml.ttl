@@ -1,0 +1,90 @@
+@prefix rr:   <http://www.w3.org/ns/r2rml#> .
+@prefix rml:  <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql:   <http://semweb.mmlab.be/ns/ql#> .
+@prefix ex:   <http://example.org/flight#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://example.org/rml/> .
+
+#turn each row of the csv into rdf 
+# airline from routes.csv 
+<#Airline> a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "C:\Users\irish\Computer_Electronic_Engineering_Year5\Knowledge_Data_Engineering\Final_Project\Data\flight_route_database\routes_region_nonstop.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    #unique uri for each airline
+    rr:subjectMap [
+        rr:template "http://example.org/flight/airline/{airline ID}" ;
+        rr:class ex:Airline
+    ] ;
+
+    #label with the airline column
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label ;
+        rr:objectMap [rml:reference "airline"]
+    ] .
+
+    #connect routes - and airports
+
+#parent for joins from airports.csv
+
+<#Airports> a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "C:\Users\irish\Computer_Electronic_Engineering_Year5\Knowledge_Data_Engineering\Final_Project\Data\openflights\airports_region.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "http://example.org/flight/airport/{Airport ID}" ;
+        rr:class ex:Airport
+    ] .
+
+#link origin and destinations to airports
+<#Routes> a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "C:\Users\irish\Computer_Electronic_Engineering_Year5\Knowledge_Data_Engineering\Final_Project\Data\flight_route_database\routes_region_nonstop.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+
+    #make unique IRI per row using origin id, destination id and flight operater
+    rr:subjectMap [
+        rr:template "http://example.org/flight/route/{source airport id}_{destination airport id}_{airline ID}" ;
+        rr:class ex:Route
+    ] ;
+
+    #origin airport - join the airport id(airports.csv) to source_airport_id(flights.csv)
+    #from here the destination connections can be mapped through the 
+    rr:predicateObjectMap [
+        rr:predicate ex:origin ;
+        rr:objectMap [
+            rr:parentTriplesMap <#Airports> ;
+            rr:joinCondition [rr:child "source airport id" ; rr:parent "Airport ID"]
+        ]
+    ];
+
+    # add the destination node to the airport ID
+    rr:predicateObjectMap [
+        rr:predicate ex:destination ;
+        rr:objectMap [
+            rr:parentTriplesMap <#Airports> ;
+            rr:joinCondition [rr:child "destination airport id" ; rr:parent "Airport ID"]
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:operatedBy ;
+        rr:objectMap [
+            rr:parentTriplesMap <#Airline> ;
+            rr:joinCondition [rr:child "airline ID" ; rr:parent "airline ID"]
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ex:stops ;
+        rr:objectMap [ rml:reference "stops" ; rr:datatype xsd:integer ]
+    ] .
+
+
+
+
+

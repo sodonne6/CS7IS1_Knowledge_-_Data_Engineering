@@ -1,0 +1,27 @@
+:Vito a ex:Character.
+:Vito ex:appears_in :TheGodFather.
+:Carmela a ex:Character.
+:Carmela ex:appears_in :TheGodFather.
+:Vincent a ex:Character.
+:Vincent ex:appears_in :TheGodFather.
+:Connie a ex:Character.
+:Connie ex:appears_in :TheGodFather.
+:Mary a ex:Character.
+:Mary ex:appears_in :TheGodFather.
+:Michael a ex:Character.
+:Michael ex:appears_in :TheGodFather.
+:TheGodFather a ex:Movie.
+:Vito ex:husbandOf :Carmela .
+:Carmela ex:wifeOf :Vito .
+:Mary a ex:Female .
+:Carmela ex:motherOf :Connie .
+:Carmela ex:hasSon :Fredo .
+:Vito owl:sameAs :VitoYoung.
+:Vito ex:parentOf :Michael .
+:Michael ex:hasChild :Mary .
+:Carmela ex:parentOf :Sonny .
+:Vincent ex:childOf :Sonny .
+:Connie ex:sibling :Fredo .
+:Carmela ex:ancestorOf :Michael .
+:Michael ex:ancestorOf :Mary.
+:TheGodFather ex:director :FrancisFordCopolla .

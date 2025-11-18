@@ -1,0 +1,204 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ex: <http://www.example.com/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex: a owl:Ontology ;
+    dc:creator "Declan O'Sullivan" ;
+    dc:description "Ontology code created by Chowlk" ;
+    dc:title "Movies Ontology" ;
+    owl:versionInfo "0.0.1" .
+
+ex:AcademyBestDirector a owl:Class ;
+    rdfs:label "Academy Best Director" ;
+    rdfs:subClassOf ex:AcademyAward .
+
+ex:AcademyBestPicture a owl:Class ;
+    rdfs:label "Academy Best Picture" ;
+    rdfs:subClassOf ex:AcademyAward .
+
+ex:childOf a owl:ObjectProperty ;
+    rdfs:label "child of" ;
+    owl:inverseOf ex:ParentOf .
+
+ex:hasSon a owl:ObjectProperty ;
+    rdfs:label "has son" ;
+    rdfs:domain ex:Person ;
+    rdfs:range ex:Male .
+
+ex:husbandOf a owl:ObjectProperty ;
+    rdfs:label "husband of" ;
+    rdfs:subPropertyOf ex:spouse .
+
+ex:judge a owl:ObjectProperty ;
+    rdfs:label "judge" ;
+    rdfs:domain ex:Award ;
+    rdfs:range ex:Person .
+
+ex:motherOf a owl:ObjectProperty ;
+    rdfs:label "mother of" ;
+    rdfs:domain ex:Female ;
+    rdfs:range ex:Person .
+
+ex:nomMovie a owl:ObjectProperty ;
+    rdfs:label "nom movie" ;
+    rdfs:domain ex:AcademyAward ;
+    rdfs:range ex:Movie .
+
+ex:nomPerson a owl:ObjectProperty ;
+    rdfs:label "nom person" ;
+    rdfs:domain ex:AcademyAward ;
+    rdfs:range ex:Person .
+
+ex:wifeOf a owl:ObjectProperty ;
+    rdfs:label "wife of" ;
+    rdfs:subPropertyOf ex:spouse .
+
+ex:winMovie a owl:ObjectProperty ;
+    rdfs:label "win movie" ;
+    rdfs:domain ex:AcademyAward ;
+    rdfs:range ex:Movie .
+
+ex:winPerson a owl:ObjectProperty ;
+    rdfs:label "win person" ;
+    rdfs:domain ex:AcademyAward ;
+    rdfs:range ex:Person .
+
+ex:Character a owl:Class ;
+    rdfs:label "Character" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:appears_in ],
+        ex:Person .
+
+ex:Female a owl:Class ;
+    rdfs:label "Female" .
+
+ex:Male a owl:Class ;
+    rdfs:label "Male" .
+
+ex:ancestorOf a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "ancestor of" ;
+    rdfs:domain ex:Person ;
+    rdfs:range ex:Person .
+
+ex:appears_in a owl:ObjectProperty ;
+    rdfs:label "appears_in" ;
+    rdfs:domain ex:Character ;
+    rdfs:range ex:Movie .
+
+ex:director a owl:ObjectProperty ;
+    rdfs:label "director" ;
+    rdfs:domain ex:Movie ;
+    rdfs:range ex:Person .
+
+ex:dob a owl:DatatypeProperty ;
+    rdfs:label "dob" .
+
+ex:hasChild a owl:ObjectProperty ;
+    rdfs:label "has child" ;
+    rdfs:domain ex:Person ;
+    rdfs:range ex:Person ;
+    owl:equivalentProperty ex:ParentOf .
+
+ex:short a owl:DatatypeProperty ;
+    rdfs:label "short" .
+
+ex:sibling a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:label "sibling" ;
+    rdfs:domain ex:Person ;
+    rdfs:range ex:Person .
+
+ex:Award a owl:Class ;
+    rdfs:label "Award" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:year ],
+        [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:name ] .
+
+ex:ParentOf a owl:ObjectProperty ;
+    rdfs:label "parent of" .
+
+ex:year a owl:DatatypeProperty ;
+    rdfs:label "year" .
+
+ex:name a owl:DatatypeProperty ;
+    rdfs:label "name" .
+
+ex:spouse a owl:ObjectProperty ;
+    rdfs:label "spouse" ;
+    rdfs:domain ex:Person ;
+    rdfs:range ex:Person .
+
+ex:Movie a owl:Class ;
+    rdfs:label "Movie" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:director ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:year ],
+        [ a owl:Restriction ;
+            owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:short ],
+        [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:name ] .
+
+ex:AcademyAward a owl:Class ;
+    rdfs:label "Academy Award" ;
+    rdfs:subClassOf ex:Award .
+
+ex:Person a owl:Class ;
+    rdfs:label "Person" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:hasChild ],
+        [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:spouse ],
+        [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:sibling ],
+        [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:ancestorOf ],
+        [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:name ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty ex:dob ] .
+:Vito a ex:Character.
+:Vito ex:appears_in :TheGodFather.
+:Carmela a ex:Character.
+:Carmela ex:appears_in :TheGodFather.
+:Vincent a ex:Character.
+:Vincent ex:appears_in :TheGodFather.
+:Connie a ex:Character.
+:Connie ex:appears_in :TheGodFather.
+:Mary a ex:Character.
+:Mary ex:appears_in :TheGodFather.
+:Michael a ex:Character.
+:Michael ex:appears_in :TheGodFather.
+:TheGodFather a ex:Movie.
+:Vito ex:husbandOf :Carmela .
+:Carmela ex:wifeOf :Vito .
+:Mary a ex:Female .
+:Carmela ex:motherOf :Connie .
+:Carmela ex:hasSon :Fredo .
+:Vito owl:sameAs :VitoYoung.
+:Vito ex:parentOf :Michael .
+:Michael ex:hasChild :Mary .
+:Carmela ex:parentOf :Sonny .
+:Vincent ex:childOf :Sonny .
+:Connie ex:sibling :Fredo .
+:Carmela ex:ancestorOf :Michael .
+:Michael ex:ancestorOf :Mary.
+:TheGodFather ex:director :FrancisFordCopolla .
+
